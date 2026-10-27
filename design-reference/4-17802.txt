@@ -1,0 +1,142 @@
+type BotaoContornoProps = {
+  className?: string;
+  rotulo?: string;
+};
+
+function BotaoContorno({ className, rotulo = "Continuar" }: BotaoContornoProps) {
+  return (
+    <div className={className || "bg-[var(--tr-surface,white)] border border-[var(--tr-ink,#925807)] border-solid content-stretch flex h-[44px] items-center justify-center relative rounded-[var(--tr-radius,8px)] w-[210px]"} data-node-id="9:18" data-name="Botão / Contorno">
+      <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.45] not-italic relative shrink-0 text-[14px] text-[color:var(--tr-ink,#925807)] whitespace-nowrap" data-node-id="9:19">
+        {rotulo}
+      </p>
+    </div>
+  );
+}
+
+type BotaoPrincipalProps = {
+  className?: string;
+  rotulo?: string;
+};
+
+function BotaoPrincipal({ className, rotulo = "Continuar" }: BotaoPrincipalProps) {
+  return (
+    <div className={className || "bg-[var(--tr-ink,#925807)] border border-[var(--tr-ink,#925807)] border-solid content-stretch flex h-[44px] items-center justify-center relative rounded-[var(--tr-radius,8px)] w-[210px]"} data-node-id="9:20" data-name="Botão / Principal">
+      <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.45] not-italic relative shrink-0 text-[14px] text-[color:var(--tr-surface,white)] whitespace-nowrap" data-node-id="9:21">
+        {rotulo}
+      </p>
+    </div>
+  );
+}
+
+export default function CandidatoInicioComMenuAberto() {
+  return (
+    <div className="bg-[var(--tr-surface,white)] border border-[var(--tr-ink,#925807)] border-solid content-stretch flex flex-col items-start relative size-full" data-node-id="4:17802" data-name="Candidato — Início com menu aberto">
+      <div className="bg-[var(--tr-subtle,#ffeed2)] border-[var(--tr-border,#808080)] border-b border-solid content-stretch flex items-center justify-between p-[24px] relative shrink-0 w-[1200px]" data-node-id="11:569" data-name="Cabeçalho">
+        <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-node-id="38:709" data-name="logo">
+          <div className="bg-[var(--tr-ink,#925807)] content-stretch flex flex-col items-center justify-center relative rounded-[var(--tr-radius,8px)] shrink-0 size-[40px]" data-node-id="39:709" data-name="logo-mark">
+            <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[20px] text-[color:var(--tr-surface,white)] whitespace-nowrap" data-node-id="39:710">
+              T
+            </p>
+          </div>
+          <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.45] not-italic relative shrink-0 text-[24px] text-[color:var(--tr-ink,#925807)] whitespace-nowrap" data-node-id="11:572">
+            tramporapido
+          </p>
+        </div>
+        <div className="content-stretch flex gap-[var(--tr-gap,16px)] items-center relative shrink-0" data-node-id="38:710" data-name="actions">
+          <div className="[word-break:break-word] content-stretch flex font-['Inter:Medium'] font-medium gap-[var(--tr-gap,16px)] items-center leading-[1.45] not-italic relative shrink-0 text-[14px] text-[color:var(--tr-ink,#925807)] whitespace-nowrap" data-node-id="39:711" data-name="navegação">
+            <p className="opacity-70 relative shrink-0" data-node-id="39:725">
+              Início
+            </p>
+            <p className="opacity-70 relative shrink-0" data-node-id="39:726">
+              Processos
+            </p>
+            <p className="opacity-70 relative shrink-0" data-node-id="39:727">
+              Documentos
+            </p>
+          </div>
+          <BotaoPrincipal className="bg-[var(--tr-ink,#925807)] border border-[var(--tr-ink,#925807)] border-solid content-stretch flex h-[44px] items-center justify-center relative rounded-[var(--tr-radius,8px)] shrink-0 w-[110px]" rotulo="Login" />
+        </div>
+      </div>
+      <div className="content-stretch flex gap-[24px] items-start p-[24px] relative shrink-0 w-[1200px]" data-node-id="11:574" data-name="Conteúdo">
+        <div className="bg-[var(--tr-subtle,#ffeed2)] content-stretch flex flex-col gap-[12px] items-start p-[16px] relative shrink-0 w-[204px]" data-node-id="11:575" data-name="Navegação lateral">
+          <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.45] not-italic relative shrink-0 text-[14px] text-[color:var(--tr-ink,#925807)] w-[172px]" data-node-id="11:576">
+            Seu próximo passo
+          </p>
+          <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.45] not-italic relative shrink-0 text-[24px] text-[color:var(--tr-ink,#925807)] w-[172px]" data-node-id="11:577">
+            Olá, Ana
+          </p>
+          <BotaoPrincipal className="bg-[var(--tr-ink,#925807)] border border-[var(--tr-ink,#925807)] border-solid content-stretch cursor-pointer flex h-[44px] items-center justify-center relative rounded-[var(--tr-radius,8px)] shrink-0 w-[172px]" rotulo="Buscar vagas" />
+          <BotaoContorno className="bg-[var(--tr-surface,white)] border border-[var(--tr-ink,#925807)] border-solid content-stretch cursor-pointer flex h-[44px] items-center justify-center relative rounded-[var(--tr-radius,8px)] shrink-0 w-[172px]" rotulo="Minhas candidaturas" />
+          <BotaoContorno className="bg-[var(--tr-surface,white)] border border-[var(--tr-ink,#925807)] border-solid content-stretch cursor-pointer flex h-[44px] items-center justify-center relative rounded-[var(--tr-radius,8px)] shrink-0 w-[172px]" rotulo="Perfil / Currículo" />
+          <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] not-italic relative shrink-0 text-[12px] text-[color:var(--tr-muted,#2d0f0f)] w-[172px]" data-node-id="11:584">
+            <p className="leading-[1.45] mb-0">Currículo atualizado</p>
+            <p className="leading-[1.45]">Seus dados estão com você.</p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[18px] items-start relative shrink-0 w-[924px]" data-node-id="11:585" data-name="Área principal">
+          <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.45] not-italic relative shrink-0 text-[24px] text-[color:var(--tr-ink,#925807)] w-[924px]" data-node-id="11:586">
+            Encontre seu próximo trabalho
+          </p>
+          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.45] not-italic relative shrink-0 text-[14px] text-[color:var(--tr-muted,#2d0f0f)] w-[924px]" data-node-id="11:587">
+            Vagas perto de você, com um currículo sempre à mão.
+          </p>
+          <div className="content-stretch flex gap-[20px] items-start relative shrink-0 w-[924px]" data-node-id="11:588" data-name="Atalhos principais">
+            <div className="bg-[var(--tr-surface,white)] border border-[var(--tr-border,#808080)] border-solid content-stretch flex flex-col gap-[16px] items-start p-[20px] relative rounded-[var(--tr-radius,8px)] shrink-0 w-[452px]" data-node-id="11:589" data-name="Buscar vagas">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.45] not-italic relative shrink-0 text-[24px] text-[color:var(--tr-ink,#925807)] w-[412px]" data-node-id="11:590">
+                Buscar vagas
+              </p>
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.45] not-italic relative shrink-0 text-[14px] text-[color:var(--tr-ink,#925807)] w-[412px]" data-node-id="11:591">
+                Veja oportunidades e conheça os requisitos.
+              </p>
+              <BotaoPrincipal className="bg-[var(--tr-ink,#925807)] border border-[var(--tr-ink,#925807)] border-solid content-stretch cursor-pointer flex h-[44px] items-center justify-center relative rounded-[var(--tr-radius,8px)] shrink-0 w-[300px]" rotulo="Me candidatar a vagas" />
+            </div>
+            <div className="bg-[var(--tr-surface,white)] border border-[var(--tr-border,#808080)] border-solid content-stretch flex flex-col gap-[16px] items-start p-[20px] relative rounded-[var(--tr-radius,8px)] shrink-0 w-[452px]" data-node-id="11:594" data-name="Minhas candidaturas">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.45] not-italic relative shrink-0 text-[24px] text-[color:var(--tr-ink,#925807)] w-[412px]" data-node-id="11:595">
+                Minhas candidaturas
+              </p>
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.45] not-italic relative shrink-0 text-[14px] text-[color:var(--tr-ink,#925807)] w-[412px]" data-node-id="11:596">
+                Acompanhe as vagas em que você se inscreveu.
+              </p>
+              <BotaoPrincipal className="bg-[var(--tr-ink,#925807)] border border-[var(--tr-ink,#925807)] border-solid content-stretch cursor-pointer flex h-[44px] items-center justify-center relative rounded-[var(--tr-radius,8px)] shrink-0 w-[300px]" rotulo="Ver candidaturas" />
+            </div>
+          </div>
+          <div className="[word-break:break-word] bg-[var(--tr-surface,white)] border border-[var(--tr-border,#808080)] border-solid content-stretch flex flex-col gap-[16px] items-start leading-[1.45] not-italic p-[20px] relative rounded-[var(--tr-radius,8px)] shrink-0 text-[14px] w-[924px]" data-node-id="11:599" data-name="Atualizações">
+            <p className="font-['Inter:Medium'] font-medium relative shrink-0 text-[color:var(--tr-ink,#925807)] w-[884px]" data-node-id="11:600">
+              Atualizações
+            </p>
+            <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[color:var(--tr-muted,#2d0f0f)] w-[884px]" data-node-id="11:601">
+              Seu currículo está pronto para novas oportunidades. Ao se candidatar, você poderá escrever uma mensagem ao representante.
+            </p>
+          </div>
+          <BotaoContorno className="bg-[var(--tr-surface,white)] border border-[var(--tr-ink,#925807)] border-solid content-stretch cursor-pointer flex h-[44px] items-center justify-center relative rounded-[var(--tr-radius,8px)] shrink-0 w-[240px]" rotulo="Editar meu currículo" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: TR/Heading: Font(family: "Inter", style: Semi Bold, size: 24, weight: 600, lineHeight: 1.4500000476837158, letterSpacing: 0), TR/Label: Font(family: "Inter", style: Medium, size: 14, weight: 500, lineHeight: 1.4500000476837158, letterSpacing: 0), TR/Caption: Font(family: "Inter", style: Regular, size: 12, weight: 400, lineHeight: 1.4500000476837158, letterSpacing: 0), TR/Body: Font(family: "Inter", style: Regular, size: 14, weight: 400, lineHeight: 1.4500000476837158, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Botão / Principal
+**Node ID:** 9:20
+
+Ação reutilizável. Rótulo editável; navegação definida na instância. Desativado não envia requisição.
+
+## Botão / Contorno
+**Node ID:** 9:18
+
+Ação reutilizável. Rótulo editável; navegação definida na instância. Desativado não envia requisição.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

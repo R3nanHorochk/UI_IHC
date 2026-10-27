@@ -1,0 +1,123 @@
+import { chromium, expect } from '@playwright/test';
+import fs from 'node:fs';
+const browser=await chromium.launch({channel:'msedge',headless:true});
+const page=await browser.newPage({viewport:{width:1200,height:840}});
+const errors=[];page.on('pageerror',e=>errors.push(e.message));
+const base=process.env.APP_URL||'http://127.0.0.1:5174/';
+const screens=JSON.parse(fs.readFileSync('src/design/screens.json'));
+fs.mkdirSync('design-reference/review',{recursive:true});
+try {
+  await page.goto(base);
+  await page.evaluate(()=>localStorage.clear());await page.reload();
+  const report=[];
+  for(const screen of screens){
+    await page.goto(base+'#'+screen.id);await page.evaluate(()=>document.fonts.ready);
+    await expect(page.locator('.screen')).toBeVisible();
+    const result=await page.evaluate(()=>({width:document.documentElement.scrollWidth,height:document.querySelector('.screen').getBoundingClientRect().height,fields:document.querySelectorAll('input,textarea,select').length,buttons:document.querySelectorAll('.design-button').length}));
+    report.push({id:screen.id,name:screen.name,...result});
+    await page.screenshot({path:`design-reference/review/${screen.id.replace(':','-')}.png`,fullPage:true});
+  }
+  fs.writeFileSync('design-reference/review/report.json',JSON.stringify({screens:report,errors},null,2));
+  console.log(`Rendered ${report.length} screens; JS errors: ${errors.length}`);
+  if(errors.length)throw new Error(errors.join('\n'));
+  // Representative: validate, fill, review, fail, retry, edit and publish.
+  await page.goto(base+'#4:18288');
+  await page.getByRole('button',{name:'Registrar vaga',exact:true}).click();
+  await page.getByRole('button',{name:'Continuar',exact:true}).click();
+  await expect(page.getByLabel('Vaga *',{exact:true})).toHaveAttribute('aria-invalid','true');
+  await page.getByRole('button',{name:'Preencher com exemplo'}).click();
+  const title=page.getByLabel('Vaga *',{exact:true});await title.fill('');await title.pressSequentially('Analista de suporte');await expect(title).toHaveValue('Analista de suporte');
+  await page.getByRole('button',{name:'Continuar',exact:true}).click();
+  await page.getByRole('button',{name:'Publicar',exact:true}).click();
+  await expect(page.locator('main')).toContainText('Analista de suporte');
+  await page.getByRole('button',{name:'Simular falha de publicação'}).click();
+  await expect(page.locator('main')).toContainText('Não foi possível publicar');
+  await page.getByRole('button',{name:'Tentar novamente'}).click();
+  await expect(page.locator('main')).toContainText('Vaga publicada');
+  await page.getByRole('button',{name:'Gerenciamento de vagas',exact:true}).click();
+  await expect(page.locator('main')).toContainText('2 vagas publicadas');
+  // Candidate: find the newly published job and apply.
+  await page.getByRole('button',{name:'Candidato',exact:true}).click();
+  await page.getByRole('button',{name:'Me candidatar a vagas'}).click();
+  await page.getByRole('button',{name:/Analista de suporte/}).click();
+  await page.getByRole('button',{name:'Me candidatar',exact:true}).click();
+  await page.getByLabel('Mensagem ao representante (opcional)').fill('Tenho experiência com suporte.');
+  await page.getByRole('button',{name:'Enviar candidatura',exact:true}).click();
+  await expect(page.locator('main')).toContainText('Candidatura enviada com sucesso');
+  await page.getByRole('button',{name:'Acompanhar candidatura',exact:true}).click();
+  await expect(page.locator('main')).toContainText('Analista de suporte');
+  // Candidate: save a resume and keep the input focus while typing.
+  await page.getByRole('button',{name:'Perfil / Currículo',exact:true}).click();
+  await page.getByLabel('Instituição *',{exact:true}).fill('Escola de Tecnologia');
+  await page.getByRole('button',{name:'Continuar para experiências'}).click();
+  await page.getByLabel('Cargo *',{exact:true}).fill('Analista de atendimento');
+  await page.getByRole('button',{name:'Salvar currículo',exact:true}).click();
+  await expect(page.locator('main')).toContainText('Currículo salvo com sucesso');
+  // Representative: select the new job, approve Ana and send a message.
+  await page.getByRole('button',{name:'Representante',exact:true}).click();
+  await page.getByRole('button',{name:'Gerenciar vagas',exact:true}).click();
+  const newJob=page.locator('[data-name="Vaga e ações"]').filter({hasText:'Analista de suporte'});
+  await newJob.getByRole('button',{name:'Inscrições e dúvidas'}).click();
+  await page.getByRole('button',{name:'Aprovar',exact:true}).click();
+  await page.getByRole('button',{name:'Confirmar aprovação'}).click();
+  await expect(page.locator('main')).toContainText('aprovad');
+  await page.getByRole('button',{name:'Entrar em contato'}).click();
+  await page.locator('main textarea').fill('Vamos conversar amanhã.');
+  await page.getByRole('button',{name:'Enviar mensagem',exact:true}).click();
+  await expect(page.locator('main')).toContainText('Mensagem enviada');
+  await page.getByRole('button',{name:'Candidato',exact:true}).click();
+  await page.getByRole('button',{name:'Ver candidaturas',exact:true}).click();
+  const myNew=page.locator('main > [data-name="Auxiliar administrativo"]').filter({hasText:'Analista de suporte'});
+  await expect(myNew).toContainText('Aprovada');
+  await myNew.getByRole('button',{name:'Situação',exact:true}).click();
+  await expect(page.locator('main')).toContainText('Vamos conversar amanhã.');
+  await page.reload();await expect(page.locator('main')).toContainText('Vamos conversar amanhã.');
+  // Questions, replies, filters and application cancellation.
+  await page.getByRole('button',{name:'Entrar em contato',exact:true}).click();
+  await page.getByLabel('Sua dúvida *',{exact:true}).fill('O trabalho tem horário flexível?');
+  await page.getByRole('button',{name:'Enviar dúvida',exact:true}).click();
+  await expect(page.locator('main')).toContainText('Dúvida enviada');
+  await page.getByRole('button',{name:'Representante',exact:true}).click();
+  await page.getByRole('button',{name:'Gerenciar vagas',exact:true}).click();
+  await page.locator('[data-name="Vaga e ações"]').filter({hasText:'Analista de suporte'}).getByRole('button',{name:'Inscrições e dúvidas'}).click();
+  await page.getByRole('button',{name:'Dúvidas da vaga',exact:true}).click();
+  await expect(page.locator('main')).toContainText('O trabalho tem horário flexível?');
+  await page.locator('main textarea').fill('Sim, o horário é flexível.');
+  await page.getByRole('button',{name:'Enviar resposta',exact:true}).click();
+  await expect(page.locator('main')).toContainText('respondida');
+  await page.getByRole('button',{name:'Candidato',exact:true}).click();
+  await page.getByRole('button',{name:'Ver candidaturas',exact:true}).click();
+  const cancelCard=page.locator('main > [data-name="Auxiliar administrativo"]').filter({hasText:'Analista de suporte'});
+  await cancelCard.getByRole('button',{name:'Cancelar inscrição',exact:true}).click();
+  await page.getByRole('button',{name:'Confirmar cancelamento',exact:true}).click();
+  await expect(page.locator('main')).toContainText('cancelada');
+  await page.getByRole('button',{name:'Buscar outras vagas',exact:true}).click();
+  await page.getByRole('button',{name:'Filtrar vagas',exact:true}).click();
+  await page.getByLabel('Vaga de',{exact:true}).fill('não existe xyz');
+  await page.getByRole('button',{name:'Aplicar filtros',exact:true}).click();
+  await expect(page.locator('main')).toContainText('Nenhuma vaga encontrada');
+  await page.getByRole('button',{name:'Filtrar vagas',exact:true}).click();
+  await page.getByRole('button',{name:'Limpar filtros',exact:true}).click();
+  await expect(page.locator('main')).toContainText('4 vagas encontradas');
+  // Company edit, closure, deletion and candidate list synchronization.
+  await page.getByRole('button',{name:'Representante',exact:true}).click();
+  await page.getByRole('button',{name:'Gerenciar vagas',exact:true}).click();
+  await page.locator('[data-name="Vaga e ações"]').filter({hasText:'Analista de suporte'}).getByRole('button',{name:'Alterar',exact:true}).click();
+  await page.getByLabel('Vaga *',{exact:true}).fill('Analista de suporte pleno');
+  await page.getByRole('button',{name:'Continuar alterações',exact:true}).click();
+  await page.getByRole('button',{name:'Publicar',exact:true}).click();
+  await page.getByRole('button',{name:'Confirmar e publicar',exact:true}).click();
+  await expect(page.locator('main')).toContainText('Analista de suporte pleno');
+  await page.getByRole('button',{name:'Encerrar vaga',exact:true}).click();
+  await page.getByRole('button',{name:'Confirmar encerramento',exact:true}).click();
+  await expect(page.locator('main')).toContainText('encerrada');
+  await page.getByRole('button',{name:'Gerenciamento de vagas',exact:true}).click();
+  await page.locator('[data-name="Vaga e ações"]').filter({hasText:'Analista de suporte pleno'}).getByRole('button',{name:'Excluir',exact:true}).click();
+  await page.getByRole('button',{name:'Confirmar exclusão',exact:true}).click();
+  await expect(page.locator('main')).toContainText('excluída');
+  // Narrow viewport smoke check.
+  await page.setViewportSize({width:390,height:844});await page.goto(base+'#4:17802');
+  await page.screenshot({path:'design-reference/review/mobile.png',fullPage:true});
+  const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth);if(overflow)throw new Error('Mobile overflow');
+  console.log('PASS: publish/failure/retry, apply, resume, approve, message, question/reply, cancel, filter, edit, close, delete, persistence and mobile.');
+}finally{await browser.close();}

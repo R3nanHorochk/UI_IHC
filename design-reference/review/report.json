@@ -1,0 +1,413 @@
+{
+  "screens": [
+    {
+      "id": "4:17802",
+      "name": "Candidato — Início com menu aberto",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 7
+    },
+    {
+      "id": "4:17824",
+      "name": "Candidato — Minhas candidaturas",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 12
+    },
+    {
+      "id": "4:17884",
+      "name": "Candidato — Vagas",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 6
+    },
+    {
+      "id": "4:17923",
+      "name": "Candidato — Detalhes da vaga",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 7
+    },
+    {
+      "id": "4:17968",
+      "name": "Candidato — Escolaridade e habilidades",
+      "width": 1200,
+      "height": 847,
+      "fields": 8,
+      "buttons": 6
+    },
+    {
+      "id": "4:18016",
+      "name": "Candidato — Currículo com campos inválidos",
+      "width": 1200,
+      "height": 933,
+      "fields": 8,
+      "buttons": 8
+    },
+    {
+      "id": "4:18065",
+      "name": "Candidato — Enviar candidatura",
+      "width": 1200,
+      "height": 840,
+      "fields": 2,
+      "buttons": 8
+    },
+    {
+      "id": "4:18110",
+      "name": "Candidato — Candidatura enviada com sucesso",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 7
+    },
+    {
+      "id": "4:18149",
+      "name": "Candidato — Experiências profissionais",
+      "width": 1200,
+      "height": 840,
+      "fields": 8,
+      "buttons": 8
+    },
+    {
+      "id": "4:18197",
+      "name": "Candidato — Currículo salvo com sucesso",
+      "width": 1200,
+      "height": 897,
+      "fields": 8,
+      "buttons": 8
+    },
+    {
+      "id": "4:18242",
+      "name": "Candidato — Já é candidato",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 8
+    },
+    {
+      "id": "4:18288",
+      "name": "Representante — Início",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 4
+    },
+    {
+      "id": "4:18302",
+      "name": "Representante — Menu aberto",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 9
+    },
+    {
+      "id": "4:18328",
+      "name": "Representante — Registrar vaga",
+      "width": 1200,
+      "height": 971,
+      "fields": 12,
+      "buttons": 9
+    },
+    {
+      "id": "4:18362",
+      "name": "Representante — Publicação com campos inválidos",
+      "width": 1200,
+      "height": 840,
+      "fields": 4,
+      "buttons": 8
+    },
+    {
+      "id": "4:18383",
+      "name": "Representante — Gerenciamento de vagas",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 11
+    },
+    {
+      "id": "4:18428",
+      "name": "Representante — Alterar vaga",
+      "width": 1200,
+      "height": 909,
+      "fields": 12,
+      "buttons": 8
+    },
+    {
+      "id": "4:18468",
+      "name": "Representante — Registrar vaga preenchida",
+      "width": 1200,
+      "height": 909,
+      "fields": 12,
+      "buttons": 8
+    },
+    {
+      "id": "4:18508",
+      "name": "Representante — Publicar vaga",
+      "width": 1200,
+      "height": 840,
+      "fields": 4,
+      "buttons": 8
+    },
+    {
+      "id": "4:18532",
+      "name": "Representante — Confirmar exclusão",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 8
+    },
+    {
+      "id": "4:18550",
+      "name": "Representante — Publicar alterações",
+      "width": 1200,
+      "height": 840,
+      "fields": 4,
+      "buttons": 8
+    },
+    {
+      "id": "4:18574",
+      "name": "Representante — Confirme as informações",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 10
+    },
+    {
+      "id": "4:18595",
+      "name": "Representante — Vaga publicada",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 12
+    },
+    {
+      "id": "4:18621",
+      "name": "Representante — Vaga excluída",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 7
+    },
+    {
+      "id": "4:18637",
+      "name": "Representante — Gerenciamento de inscrições",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 12
+    },
+    {
+      "id": "10:2",
+      "name": "Candidato — Filtrar vagas",
+      "width": 1200,
+      "height": 840,
+      "fields": 4,
+      "buttons": 7
+    },
+    {
+      "id": "10:3",
+      "name": "Candidato — Enviar dúvida",
+      "width": 1200,
+      "height": 840,
+      "fields": 2,
+      "buttons": 6
+    },
+    {
+      "id": "10:4",
+      "name": "Candidato — Dúvida enviada",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 5
+    },
+    {
+      "id": "10:5",
+      "name": "Candidato — Cancelar candidatura",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 6
+    },
+    {
+      "id": "10:6",
+      "name": "Candidato — Candidatura cancelada",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 5
+    },
+    {
+      "id": "10:7",
+      "name": "Candidato — Situação da candidatura",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 6
+    },
+    {
+      "id": "10:8",
+      "name": "Candidato — Nenhuma vaga encontrada",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 7
+    },
+    {
+      "id": "10:9",
+      "name": "Candidato — Falha ao enviar",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 7
+    },
+    {
+      "id": "16:283",
+      "name": "Representante — Confirmar alterações",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 10
+    },
+    {
+      "id": "16:284",
+      "name": "Representante — Alterações publicadas",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 12
+    },
+    {
+      "id": "16:285",
+      "name": "Representante — Confirmar encerramento",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 8
+    },
+    {
+      "id": "16:286",
+      "name": "Representante — Vaga encerrada",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 8
+    },
+    {
+      "id": "16:287",
+      "name": "Representante — Currículo do candidato",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 9
+    },
+    {
+      "id": "16:288",
+      "name": "Representante — Confirmar aprovação",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 8
+    },
+    {
+      "id": "16:289",
+      "name": "Representante — Candidato aprovado",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 8
+    },
+    {
+      "id": "16:290",
+      "name": "Representante — Confirmar reprovação",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 8
+    },
+    {
+      "id": "16:291",
+      "name": "Representante — Candidato reprovado",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 8
+    },
+    {
+      "id": "16:292",
+      "name": "Representante — Entrar em contato",
+      "width": 1200,
+      "height": 840,
+      "fields": 2,
+      "buttons": 8
+    },
+    {
+      "id": "16:293",
+      "name": "Representante — Mensagem enviada",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 7
+    },
+    {
+      "id": "16:294",
+      "name": "Representante — Informações de visualizações",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 7
+    },
+    {
+      "id": "16:295",
+      "name": "Representante — Dúvidas e comentários",
+      "width": 1200,
+      "height": 840,
+      "fields": 2,
+      "buttons": 8
+    },
+    {
+      "id": "16:296",
+      "name": "Representante — Resposta enviada",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 7
+    },
+    {
+      "id": "16:297",
+      "name": "Representante — Falha ao publicar",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 8
+    },
+    {
+      "id": "16:298",
+      "name": "Representante — Perfil da empresa",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 7
+    },
+    {
+      "id": "16:299",
+      "name": "Representante — Configurações",
+      "width": 1200,
+      "height": 840,
+      "fields": 4,
+      "buttons": 7
+    },
+    {
+      "id": "16:300",
+      "name": "Representante — Suporte e dúvidas",
+      "width": 1200,
+      "height": 840,
+      "fields": 1,
+      "buttons": 8
+    }
+  ],
+  "errors": []
+}

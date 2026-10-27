@@ -1,0 +1,308 @@
+[
+  {
+    "id": "4:17802",
+    "name": "Candidato — Início com menu aberto",
+    "checked": 35,
+    "errors": []
+  },
+  {
+    "id": "4:17824",
+    "name": "Candidato — Minhas candidaturas",
+    "checked": 41,
+    "errors": []
+  },
+  {
+    "id": "4:17884",
+    "name": "Candidato — Vagas",
+    "checked": 28,
+    "errors": []
+  },
+  {
+    "id": "4:17923",
+    "name": "Candidato — Detalhes da vaga",
+    "checked": 33,
+    "errors": []
+  },
+  {
+    "id": "4:17968",
+    "name": "Candidato — Escolaridade e habilidades",
+    "checked": 30,
+    "errors": []
+  },
+  {
+    "id": "4:18016",
+    "name": "Candidato — Currículo com campos inválidos",
+    "checked": 34,
+    "errors": []
+  },
+  {
+    "id": "4:18065",
+    "name": "Candidato — Enviar candidatura",
+    "checked": 34,
+    "errors": []
+  },
+  {
+    "id": "4:18110",
+    "name": "Candidato — Candidatura enviada com sucesso",
+    "checked": 32,
+    "errors": []
+  },
+  {
+    "id": "4:18149",
+    "name": "Candidato — Experiências profissionais",
+    "checked": 30,
+    "errors": []
+  },
+  {
+    "id": "4:18197",
+    "name": "Candidato — Currículo salvo com sucesso",
+    "checked": 33,
+    "errors": []
+  },
+  {
+    "id": "4:18242",
+    "name": "Candidato — Já é candidato",
+    "checked": 35,
+    "errors": []
+  },
+  {
+    "id": "4:18288",
+    "name": "Representante — Início",
+    "checked": 21,
+    "errors": []
+  },
+  {
+    "id": "4:18302",
+    "name": "Representante — Menu aberto",
+    "checked": 30,
+    "errors": []
+  },
+  {
+    "id": "4:18328",
+    "name": "Representante — Registrar vaga",
+    "checked": 40,
+    "errors": []
+  },
+  {
+    "id": "4:18362",
+    "name": "Representante — Publicação com campos inválidos",
+    "checked": 29,
+    "errors": []
+  },
+  {
+    "id": "4:18383",
+    "name": "Representante — Gerenciamento de vagas",
+    "checked": 27,
+    "errors": []
+  },
+  {
+    "id": "4:18428",
+    "name": "Representante — Alterar vaga",
+    "checked": 39,
+    "errors": []
+  },
+  {
+    "id": "4:18468",
+    "name": "Representante — Registrar vaga preenchida",
+    "checked": 39,
+    "errors": []
+  },
+  {
+    "id": "4:18508",
+    "name": "Representante — Publicar vaga",
+    "checked": 27,
+    "errors": []
+  },
+  {
+    "id": "4:18532",
+    "name": "Representante — Confirmar exclusão",
+    "checked": 30,
+    "errors": []
+  },
+  {
+    "id": "4:18550",
+    "name": "Representante — Publicar alterações",
+    "checked": 27,
+    "errors": []
+  },
+  {
+    "id": "4:18574",
+    "name": "Representante — Confirme as informações",
+    "checked": 29,
+    "errors": []
+  },
+  {
+    "id": "4:18595",
+    "name": "Representante — Vaga publicada",
+    "checked": 32,
+    "errors": []
+  },
+  {
+    "id": "4:18621",
+    "name": "Representante — Vaga excluída",
+    "checked": 20,
+    "errors": []
+  },
+  {
+    "id": "4:18637",
+    "name": "Representante — Gerenciamento de inscrições",
+    "checked": 30,
+    "errors": []
+  },
+  {
+    "id": "10:2",
+    "name": "Candidato — Filtrar vagas",
+    "checked": 24,
+    "errors": []
+  },
+  {
+    "id": "10:3",
+    "name": "Candidato — Enviar dúvida",
+    "checked": 21,
+    "errors": []
+  },
+  {
+    "id": "10:4",
+    "name": "Candidato — Dúvida enviada",
+    "checked": 18,
+    "errors": []
+  },
+  {
+    "id": "10:5",
+    "name": "Candidato — Cancelar candidatura",
+    "checked": 21,
+    "errors": []
+  },
+  {
+    "id": "10:6",
+    "name": "Candidato — Candidatura cancelada",
+    "checked": 18,
+    "errors": []
+  },
+  {
+    "id": "10:7",
+    "name": "Candidato — Situação da candidatura",
+    "checked": 21,
+    "errors": []
+  },
+  {
+    "id": "10:8",
+    "name": "Candidato — Nenhuma vaga encontrada",
+    "checked": 24,
+    "errors": []
+  },
+  {
+    "id": "10:9",
+    "name": "Candidato — Falha ao enviar",
+    "checked": 32,
+    "errors": []
+  },
+  {
+    "id": "16:283",
+    "name": "Representante — Confirmar alterações",
+    "checked": 29,
+    "errors": []
+  },
+  {
+    "id": "16:284",
+    "name": "Representante — Alterações publicadas",
+    "checked": 32,
+    "errors": []
+  },
+  {
+    "id": "16:285",
+    "name": "Representante — Confirmar encerramento",
+    "checked": 30,
+    "errors": []
+  },
+  {
+    "id": "16:286",
+    "name": "Representante — Vaga encerrada",
+    "checked": 21,
+    "errors": []
+  },
+  {
+    "id": "16:287",
+    "name": "Representante — Currículo do candidato",
+    "checked": 29,
+    "errors": []
+  },
+  {
+    "id": "16:288",
+    "name": "Representante — Confirmar aprovação",
+    "checked": 23,
+    "errors": []
+  },
+  {
+    "id": "16:289",
+    "name": "Representante — Candidato aprovado",
+    "checked": 21,
+    "errors": []
+  },
+  {
+    "id": "16:290",
+    "name": "Representante — Confirmar reprovação",
+    "checked": 23,
+    "errors": []
+  },
+  {
+    "id": "16:291",
+    "name": "Representante — Candidato reprovado",
+    "checked": 21,
+    "errors": []
+  },
+  {
+    "id": "16:292",
+    "name": "Representante — Entrar em contato",
+    "checked": 23,
+    "errors": []
+  },
+  {
+    "id": "16:293",
+    "name": "Representante — Mensagem enviada",
+    "checked": 20,
+    "errors": []
+  },
+  {
+    "id": "16:294",
+    "name": "Representante — Informações de visualizações",
+    "checked": 29,
+    "errors": []
+  },
+  {
+    "id": "16:295",
+    "name": "Representante — Dúvidas e comentários",
+    "checked": 24,
+    "errors": []
+  },
+  {
+    "id": "16:296",
+    "name": "Representante — Resposta enviada",
+    "checked": 20,
+    "errors": []
+  },
+  {
+    "id": "16:297",
+    "name": "Representante — Falha ao publicar",
+    "checked": 22,
+    "errors": []
+  },
+  {
+    "id": "16:298",
+    "name": "Representante — Perfil da empresa",
+    "checked": 21,
+    "errors": []
+  },
+  {
+    "id": "16:299",
+    "name": "Representante — Configurações",
+    "checked": 21,
+    "errors": []
+  },
+  {
+    "id": "16:300",
+    "name": "Representante — Suporte e dúvidas",
+    "checked": 24,
+    "errors": []
+  }
+]

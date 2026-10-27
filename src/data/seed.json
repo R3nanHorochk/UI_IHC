@@ -1,0 +1,256 @@
+{
+  "version": 1,
+  "users": [
+    {
+      "id": "ana",
+      "name": "Ana Souza",
+      "role": "candidate"
+    },
+    {
+      "id": "carlos",
+      "name": "Carlos Almeida",
+      "role": "representative",
+      "companyId": "horizonte"
+    }
+  ],
+  "companies": [
+    {
+      "id": "horizonte",
+      "name": "Empresa Horizonte",
+      "sector": "Serviços administrativos",
+      "city": "São Paulo",
+      "state": "SP",
+      "district": "Centro"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "1024",
+      "companyId": "horizonte",
+      "company": "Empresa Horizonte",
+      "title": "Auxiliar administrativo",
+      "period": "Integral",
+      "date": "18/10/2026",
+      "mode": "Presencial",
+      "state": "SP",
+      "city": "São Paulo",
+      "district": "Centro",
+      "address": "Rua Exemplo, 120",
+      "salary": "R$ 1.900,00",
+      "benefits": "Vale-transporte e alimentação",
+      "description": "Organize documentos, atenda clientes e apoie as rotinas administrativas. Ensino médio completo e organização.",
+      "type": "CLT",
+      "distance": 1.8,
+      "status": "Aberta",
+      "views": 128,
+      "version": 1
+    },
+    {
+      "id": "1025",
+      "companyId": "central",
+      "company": "Mercado Central",
+      "title": "Atendente de loja",
+      "period": "Integral",
+      "date": "16/10/2026",
+      "mode": "Presencial",
+      "state": "SP",
+      "city": "São Paulo",
+      "district": "Centro",
+      "address": "Rua do Mercado, 45",
+      "salary": "R$ 1.750,00",
+      "benefits": "Vale-transporte",
+      "description": "Atendimento ao público, organização da loja e apoio ao caixa. Boa comunicação e disponibilidade de horário.",
+      "type": "CLT",
+      "distance": 1.5,
+      "status": "Aberta",
+      "views": 64,
+      "version": 1
+    },
+    {
+      "id": "1026",
+      "companyId": "sul",
+      "company": "Logística Sul",
+      "title": "Auxiliar de estoque",
+      "period": "Integral",
+      "date": "20/10/2026",
+      "mode": "Presencial",
+      "state": "SP",
+      "city": "São Paulo",
+      "district": "Centro",
+      "address": "Avenida Sul, 230",
+      "salary": "R$ 1.850,00",
+      "benefits": "Vale-transporte e alimentação",
+      "description": "Recebimento, conferência e organização de mercadorias. Ensino médio completo e atenção aos detalhes.",
+      "type": "CLT",
+      "distance": 2,
+      "status": "Aberta",
+      "views": 42,
+      "version": 1
+    }
+  ],
+  "applications": [
+    {
+      "id": "2041",
+      "jobId": "1024",
+      "userId": "ana",
+      "name": "Ana Souza",
+      "date": "18/10/2026",
+      "status": "Enviada",
+      "message": "Olá! Tenho interesse na vaga e experiência na área."
+    },
+    {
+      "id": "2042",
+      "jobId": "1025",
+      "userId": "ana",
+      "name": "Ana Souza",
+      "date": "16/10/2026",
+      "status": "Em análise",
+      "message": "Tenho interesse na oportunidade."
+    },
+    {
+      "id": "2043",
+      "jobId": "1024",
+      "userId": "demo-0",
+      "name": "Bruno Lima",
+      "date": "18/10/2026",
+      "status": "Enviada",
+      "message": ""
+    },
+    {
+      "id": "2044",
+      "jobId": "1024",
+      "userId": "demo-1",
+      "name": "Carla Santos",
+      "date": "18/10/2026",
+      "status": "Enviada",
+      "message": ""
+    },
+    {
+      "id": "2045",
+      "jobId": "1024",
+      "userId": "demo-2",
+      "name": "Diego Alves",
+      "date": "18/10/2026",
+      "status": "Enviada",
+      "message": ""
+    },
+    {
+      "id": "2046",
+      "jobId": "1024",
+      "userId": "demo-3",
+      "name": "Eduarda Costa",
+      "date": "18/10/2026",
+      "status": "Enviada",
+      "message": ""
+    },
+    {
+      "id": "2047",
+      "jobId": "1024",
+      "userId": "demo-4",
+      "name": "Felipe Rocha",
+      "date": "18/10/2026",
+      "status": "Enviada",
+      "message": ""
+    },
+    {
+      "id": "2048",
+      "jobId": "1024",
+      "userId": "demo-5",
+      "name": "Gabriela Silva",
+      "date": "18/10/2026",
+      "status": "Enviada",
+      "message": ""
+    },
+    {
+      "id": "2049",
+      "jobId": "1024",
+      "userId": "demo-6",
+      "name": "Henrique Dias",
+      "date": "18/10/2026",
+      "status": "Enviada",
+      "message": ""
+    },
+    {
+      "id": "2050",
+      "jobId": "1024",
+      "userId": "demo-7",
+      "name": "Isabela Mendes",
+      "date": "18/10/2026",
+      "status": "Enviada",
+      "message": ""
+    },
+    {
+      "id": "2051",
+      "jobId": "1024",
+      "userId": "demo-8",
+      "name": "João Pereira",
+      "date": "18/10/2026",
+      "status": "Enviada",
+      "message": ""
+    },
+    {
+      "id": "2052",
+      "jobId": "1024",
+      "userId": "demo-9",
+      "name": "Larissa Nunes",
+      "date": "18/10/2026",
+      "status": "Enviada",
+      "message": ""
+    },
+    {
+      "id": "2053",
+      "jobId": "1024",
+      "userId": "demo-10",
+      "name": "Marcos Oliveira",
+      "date": "18/10/2026",
+      "status": "Enviada",
+      "message": ""
+    }
+  ],
+  "profiles": {
+    "ana": {
+      "education": [
+        {
+          "course": "Ensino médio",
+          "level": "Médio",
+          "institution": "Escola Municipal Central",
+          "dates": "02/2018 — 12/2020",
+          "completed": true
+        }
+      ],
+      "skills": [
+        "Organização",
+        "Atendimento",
+        "Informática"
+      ],
+      "experience": [
+        {
+          "position": "Assistente de atendimento",
+          "company": "Empresa Exemplo",
+          "dates": "03/2023 — 09/2026",
+          "mode": "Presencial",
+          "description": "Atendimento ao público e organização de documentos.",
+          "current": false
+        }
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "jobId": "1024",
+      "userId": "ana",
+      "name": "Ana Souza",
+      "date": "18/10/2026",
+      "text": "Qual é o horário de trabalho para esta vaga?",
+      "answer": ""
+    }
+  ],
+  "messages": [],
+  "preferences": {
+    "applications": true,
+    "questions": true,
+    "summary": "semanal"
+  },
+  "operations": {}
+}

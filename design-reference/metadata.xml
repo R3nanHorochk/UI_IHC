@@ -1,0 +1,1976 @@
+<canvas id="2:5" name="Cadidato+representante" x="0" y="0" width="0" height="0">
+  <frame id="4:17802" name="Candidato — Início com menu aberto" x="3200" y="-250" width="1200" height="840">
+    <frame id="11:569" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <frame id="38:709" name="logo" x="24" y="26" width="210" height="40">
+        <frame id="39:709" name="logo-mark" x="0" y="0" width="40" height="40">
+          <text id="39:710" name="T" x="13" y="8" width="14" height="24" />
+        </frame>
+        <text id="11:572" name="tramporapido" x="52" y="2.5" width="158" height="35" />
+      </frame>
+      <frame id="38:710" name="actions" x="827" y="24" width="349" height="44">
+        <frame id="39:711" name="navegação" x="0" y="12" width="223" height="20">
+          <text id="39:725" name="Início" x="0" y="0" width="36" height="20" />
+          <text id="39:726" name="Processos" x="52" y="0" width="70" height="20" />
+          <text id="39:727" name="Documentos" x="138" y="0" width="85" height="20" />
+        </frame>
+        <instance id="39:718" name="Login" x="239" y="0" width="110" height="44" />
+      </frame>
+    </frame>
+    <frame id="11:574" name="Conteúdo" x="1" y="93" width="1200" height="490">
+      <frame id="11:575" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="11:576" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="11:577" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="11:578" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="11:580" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="11:582" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="11:584" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="11:585" name="Área principal" x="252" y="24" width="924" height="442">
+        <text id="11:586" name="Encontre seu próximo trabalho" x="0" y="0" width="924" height="35" />
+        <text id="11:587" name="Vagas perto de você, com um currículo sempre à mão." x="0" y="53" width="924" height="20" />
+        <frame id="11:588" name="Atalhos principais" x="0" y="91" width="924" height="173">
+          <frame id="11:589" name="Buscar vagas" x="0" y="0" width="452" height="173">
+            <text id="11:590" name="Buscar vagas" x="21" y="21" width="412" height="35" />
+            <text id="11:591" name="Veja oportunidades e conheça os requisitos." x="21" y="72" width="412" height="20" />
+            <instance id="11:592" name="Me candidatar a vagas" x="21" y="108" width="300" height="44" />
+          </frame>
+          <frame id="11:594" name="Minhas candidaturas" x="472" y="0" width="452" height="173">
+            <text id="11:595" name="Minhas candidaturas" x="21" y="21" width="412" height="35" />
+            <text id="11:596" name="Acompanhe as vagas em que você se inscreveu." x="21" y="72" width="412" height="20" />
+            <instance id="11:597" name="Ver candidaturas" x="21" y="108" width="300" height="44" />
+          </frame>
+        </frame>
+        <frame id="11:599" name="Atualizações" x="0" y="282" width="924" height="98">
+          <text id="11:600" name="Atualizações" x="21" y="21" width="884" height="20" />
+          <text id="11:601" name="Seu currículo está pronto para novas oportunidades. Ao se candidatar, você poderá escrever uma mensagem ao representante." x="21" y="57" width="884" height="20" />
+        </frame>
+        <instance id="11:602" name="Editar meu currículo" x="0" y="398" width="240" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:17824" name="Candidato — Minhas candidaturas" x="4520" y="-250" width="1200" height="840">
+    <frame id="11:604" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="11:605" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="11:607" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="11:608" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="11:609" name="Conteúdo" x="1" y="93" width="1200" height="455">
+      <frame id="11:610" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="11:611" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="11:612" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="11:613" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="11:615" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="11:617" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="11:619" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="11:620" name="Área principal" x="252" y="24" width="924" height="407">
+        <text id="11:621" name="Minhas candidaturas" x="0" y="0" width="924" height="35" />
+        <text id="11:622" name="Acompanhe suas inscrições e fale com as empresas." x="0" y="53" width="924" height="20" />
+        <frame id="11:623" name="Auxiliar administrativo" x="0" y="91" width="924" height="149">
+          <frame id="11:624" name="Resumo e ações" x="21" y="21" width="860" height="107">
+            <frame id="11:625" name="Resumo" x="0" y="0" width="420" height="107">
+              <text id="11:626" name="Auxiliar administrativo" x="0" y="0" width="420" height="35" />
+              <text id="11:627" name="Empresa Horizonte • inscrição em 18/10/2026" x="0" y="51" width="420" height="20" />
+              <text id="11:628" name="Situação: Enviada" x="0" y="87" width="420" height="20" />
+            </frame>
+            <frame id="11:629" name="Ações" x="440" y="0" width="420" height="96">
+              <frame id="11:630" name="Ações da candidatura" x="0" y="0" width="330" height="44">
+                <instance id="11:631" name="Expandir" x="0" y="0" width="160" height="44" />
+                <instance id="11:633" name="Situação" x="170" y="0" width="160" height="44" />
+              </frame>
+              <frame id="11:635" name="Contato e cancelamento" x="0" y="52" width="410" height="44">
+                <instance id="11:636" name="Entrar em contato" x="0" y="0" width="200" height="44" />
+                <instance id="11:638" name="Cancelar inscrição" x="210" y="0" width="200" height="44" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="11:640" name="Atendente de loja" x="0" y="258" width="924" height="149">
+          <frame id="11:641" name="Resumo e ações" x="21" y="21" width="860" height="107">
+            <frame id="11:642" name="Resumo" x="0" y="0" width="420" height="107">
+              <text id="11:643" name="Atendente de loja" x="0" y="0" width="420" height="35" />
+              <text id="11:644" name="Empresa Horizonte • inscrição em 16/10/2026" x="0" y="51" width="420" height="20" />
+              <text id="11:645" name="Situação: Em análise" x="0" y="87" width="420" height="20" />
+            </frame>
+            <frame id="11:646" name="Ações" x="440" y="0" width="420" height="96">
+              <frame id="11:647" name="Ações da candidatura" x="0" y="0" width="330" height="44">
+                <instance id="11:648" name="Expandir" x="0" y="0" width="160" height="44" />
+                <instance id="11:650" name="Situação" x="170" y="0" width="160" height="44" />
+              </frame>
+              <frame id="11:652" name="Contato e cancelamento" x="0" y="52" width="410" height="44">
+                <instance id="11:653" name="Entrar em contato" x="0" y="0" width="200" height="44" />
+                <instance id="11:655" name="Cancelar inscrição" x="210" y="0" width="200" height="44" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:17884" name="Candidato — Vagas" x="5840" y="-250" width="1200" height="840">
+    <frame id="11:657" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="11:658" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="11:660" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="11:661" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="11:662" name="Conteúdo" x="1" y="93" width="1200" height="623">
+      <frame id="11:663" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="11:664" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="11:665" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="11:666" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="11:668" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="11:670" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="11:672" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="11:673" name="Área principal" x="252" y="24" width="924" height="575">
+        <text id="11:674" name="Vagas" x="0" y="0" width="924" height="35" />
+        <frame id="11:675" name="Lista e painel de detalhes" x="0" y="53" width="924" height="522">
+          <frame id="11:676" name="Lista de vagas" x="0" y="0" width="280" height="522">
+            <instance id="11:677" name="Filtrar vagas" x="0" y="0" width="280" height="44" />
+            <text id="11:679" name="3 vagas encontradas" x="0" y="58" width="280" height="17" />
+            <instance id="11:680" name="Card / Vaga" x="0" y="89" width="280" height="135" />
+            <instance id="11:685" name="Card / Vaga" x="0" y="238" width="280" height="135" />
+            <instance id="11:690" name="Card / Vaga" x="0" y="387" width="280" height="135" />
+          </frame>
+          <frame id="11:695" name="Painel da vaga" x="304" y="0" width="620" height="245">
+            <frame id="11:696" name="Selecione uma vaga" x="0" y="0" width="620" height="98">
+              <text id="11:697" name="Selecione uma vaga" x="21" y="21" width="580" height="20" />
+              <text id="11:698" name="Clique em um card à esquerda para consultar requisitos, remuneração e localização." x="21" y="57" width="580" height="20" />
+            </frame>
+            <text id="11:699" name="Buscas e filtros" x="0" y="114" width="620" height="35" />
+            <text id="11:700" name="Distância, tipo de vaga e data de publicação ajudam você a encontrar oportunidades." x="0" y="165" width="620" height="20" />
+            <instance id="11:701" name="Abrir primeira vaga" x="0" y="201" width="260" height="44" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:17923" name="Candidato — Detalhes da vaga" x="3200" y="710" width="1200" height="840">
+    <frame id="11:703" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="11:704" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="11:706" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="11:707" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="11:708" name="Conteúdo" x="1" y="93" width="1200" height="623">
+      <frame id="11:709" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="11:710" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="11:711" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="11:712" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="11:714" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="11:716" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="11:718" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="11:719" name="Área principal" x="252" y="24" width="924" height="575">
+        <text id="11:720" name="Vagas" x="0" y="0" width="924" height="35" />
+        <frame id="11:721" name="Lista e painel de detalhes" x="0" y="53" width="924" height="522">
+          <frame id="11:722" name="Lista de vagas" x="0" y="0" width="280" height="522">
+            <instance id="11:723" name="Filtrar vagas" x="0" y="0" width="280" height="44" />
+            <text id="11:725" name="3 vagas encontradas" x="0" y="58" width="280" height="17" />
+            <instance id="11:726" name="Card / Vaga" x="0" y="89" width="280" height="135" />
+            <instance id="11:731" name="Card / Vaga" x="0" y="238" width="280" height="135" />
+            <instance id="11:736" name="Card / Vaga" x="0" y="387" width="280" height="135" />
+          </frame>
+          <frame id="11:741" name="Painel da vaga" x="304" y="0" width="620" height="399">
+            <frame id="11:742" name="Mais informações" x="0" y="0" width="620" height="205">
+              <text id="11:743" name="Auxiliar administrativo" x="21" y="21" width="580" height="35" />
+              <text id="11:744" name="Empresa Horizonte • CLT • Presencial" x="21" y="72" width="580" height="20" />
+              <text id="11:745" name="R$ 1.900 / mês" x="21" y="108" width="580" height="20" />
+              <text id="11:746" name="Organize documentos, atenda clientes e apoie as rotinas administrativas. Ensino médio completo e organização." x="21" y="144" width="580" height="40" />
+            </frame>
+            <frame id="11:747" name="Localização" x="0" y="221" width="620" height="118">
+              <text id="11:748" name="Localização" x="21" y="21" width="580" height="20" />
+              <text id="11:749" name="Centro • a aproximadamente 1,8 km Endereço completo informado pela empresa." x="21" y="57" width="580" height="40" />
+            </frame>
+            <frame id="11:750" name="Ações da vaga" x="0" y="355" width="576" height="44">
+              <instance id="11:751" name="Enviar dúvida" x="0" y="0" width="260" height="44" />
+              <instance id="11:753" name="Me candidatar" x="276" y="0" width="300" height="44" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:17968" name="Candidato — Escolaridade e habilidades" x="4520" y="710" width="1200" height="840">
+    <frame id="11:918" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="11:919" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="11:921" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="11:922" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="11:923" name="Conteúdo" x="1" y="93" width="1200" height="757">
+      <frame id="11:924" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="11:925" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="11:926" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="11:927" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="11:929" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="11:931" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="11:933" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="11:934" name="Área principal" x="252" y="24" width="924" height="709">
+        <text id="11:935" name="Meu currículo" x="0" y="0" width="924" height="35" />
+        <text id="11:936" name="1. Escolaridade e habilidades → 2. Experiências" x="0" y="53" width="924" height="20" />
+        <frame id="11:937" name="Escolaridade" x="0" y="91" width="924" height="341">
+          <text id="11:938" name="Escolaridade" x="21" y="21" width="884" height="35" />
+          <frame id="11:939" name="Curso e nível" x="21" y="72" width="884" height="68">
+            <instance id="11:940" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="11:944" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <frame id="11:948" name="Instituição e datas" x="21" y="156" width="884" height="68">
+            <instance id="11:949" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="11:953" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <text id="11:957" name="◉ Finalizado ○ Em andamento" x="21" y="240" width="884" height="20" />
+          <instance id="11:958" name="+ Adicionar escolaridade" x="21" y="276" width="300" height="44" />
+        </frame>
+        <frame id="11:960" name="Habilidades" x="0" y="450" width="924" height="197">
+          <text id="11:961" name="Habilidades" x="21" y="21" width="884" height="35" />
+          <instance id="11:962" name="Campo / Texto" x="21" y="72" width="400" height="68" />
+          <text id="11:966" name="[ Organização × ] [ Atendimento × ] [ Informática × ]" x="21" y="156" width="884" height="20" />
+        </frame>
+        <instance id="11:967" name="Continuar para experiências" x="0" y="665" width="330" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18016" name="Candidato — Currículo com campos inválidos" x="5840" y="710" width="1200" height="840">
+    <frame id="11:1022" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="11:1023" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="11:1025" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="11:1026" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="11:1027" name="Conteúdo" x="1" y="93" width="1200" height="840">
+      <frame id="11:1028" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="11:1029" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="11:1030" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="11:1031" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="11:1033" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="11:1035" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="11:1037" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="11:1038" name="Área principal" x="252" y="24" width="924" height="792">
+        <text id="11:1039" name="Meu currículo" x="0" y="0" width="924" height="35" />
+        <text id="11:1040" name="1. Escolaridade e habilidades → 2. Experiências" x="0" y="53" width="924" height="20" />
+        <frame id="11:1041" name="Experiência profissional" x="0" y="91" width="924" height="461">
+          <text id="11:1042" name="Experiências profissionais" x="21" y="21" width="884" height="35" />
+          <frame id="11:1043" name="Cargo e empresa" x="21" y="72" width="884" height="68">
+            <instance id="11:1044" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="11:1048" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <text id="11:1052" name="! Informe o cargo para continuar." x="21" y="156" width="884" height="20" />
+          <text id="11:1053" name="Emprego atual: ○ Sim ◉ Não" x="21" y="192" width="884" height="20" />
+          <frame id="11:1054" name="Datas e modalidade" x="21" y="228" width="884" height="68">
+            <instance id="11:1055" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="11:1059" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <instance id="11:1063" name="Campo / Texto" x="21" y="312" width="884" height="68" />
+          <instance id="11:1067" name="+ Adicionar experiência" x="21" y="396" width="300" height="44" />
+        </frame>
+        <frame id="11:1069" name="Salvar currículo" x="0" y="570" width="496" height="44">
+          <instance id="11:1070" name="Cancelar alterações" x="0" y="0" width="240" height="44" />
+          <instance id="11:1072" name="Salvar currículo" x="256" y="0" width="240" height="44" />
+        </frame>
+        <frame id="11:1074" name="Não foi possível salvar" x="0" y="632" width="924" height="98">
+          <text id="11:1075" name="Não foi possível salvar" x="21" y="21" width="884" height="20" />
+          <text id="11:1076" name="Existem campos inválidos ou não preenchidos. Corrija o cargo e tente novamente." x="21" y="57" width="884" height="20" />
+        </frame>
+        <instance id="11:1077" name="Corrigir cargo" x="0" y="748" width="240" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18065" name="Candidato — Enviar candidatura" x="3200" y="1670" width="1200" height="840">
+    <frame id="11:810" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="11:811" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="11:813" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="11:814" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="11:815" name="Conteúdo" x="1" y="93" width="1200" height="623">
+      <frame id="11:816" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="11:817" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="11:818" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="11:819" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="11:821" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="11:823" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="11:825" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="11:826" name="Área principal" x="252" y="24" width="924" height="575">
+        <text id="11:827" name="Enviar candidatura" x="0" y="0" width="924" height="35" />
+        <frame id="11:828" name="Lista e painel de detalhes" x="0" y="53" width="924" height="522">
+          <frame id="11:829" name="Lista de vagas" x="0" y="0" width="280" height="522">
+            <instance id="11:830" name="Filtrar vagas" x="0" y="0" width="280" height="44" />
+            <text id="11:832" name="3 vagas encontradas" x="0" y="58" width="280" height="17" />
+            <instance id="11:833" name="Card / Vaga" x="0" y="89" width="280" height="135" />
+            <instance id="11:838" name="Card / Vaga" x="0" y="238" width="280" height="135" />
+            <instance id="11:843" name="Card / Vaga" x="0" y="387" width="280" height="135" />
+          </frame>
+          <frame id="11:848" name="Painel da vaga" x="304" y="0" width="620" height="478">
+            <frame id="11:849" name="Mais informações" x="0" y="0" width="620" height="205">
+              <text id="11:850" name="Auxiliar administrativo" x="21" y="21" width="580" height="35" />
+              <text id="11:851" name="Empresa Horizonte • CLT • Presencial" x="21" y="72" width="580" height="20" />
+              <text id="11:852" name="R$ 1.900 / mês" x="21" y="108" width="580" height="20" />
+              <text id="11:853" name="Organize documentos, atenda clientes e apoie as rotinas administrativas. Ensino médio completo e organização." x="21" y="144" width="580" height="40" />
+            </frame>
+            <instance id="11:854" name="Campo / Texto" x="0" y="221" width="620" height="68" />
+            <text id="11:858" name="☐ Receber notificações sobre esta vaga" x="0" y="305" width="620" height="20" />
+            <text id="11:859" name="Seu currículo salvo será enviado junto da candidatura." x="0" y="341" width="620" height="17" />
+            <frame id="11:860" name="Confirmação" x="0" y="374" width="476" height="44">
+              <instance id="11:861" name="Cancelar" x="0" y="0" width="180" height="44" />
+              <instance id="11:863" name="Enviar candidatura" x="196" y="0" width="280" height="44" />
+            </frame>
+            <instance id="11:865" name="Simular falha no envio" x="0" y="434" width="280" height="44" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18110" name="Candidato — Candidatura enviada com sucesso" x="4520" y="1670" width="1200" height="840">
+    <frame id="11:867" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="11:868" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="11:870" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="11:871" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="11:872" name="Conteúdo" x="1" y="93" width="1200" height="623">
+      <frame id="11:873" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="11:874" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="11:875" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="11:876" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="11:878" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="11:880" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="11:882" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="11:883" name="Área principal" x="252" y="24" width="924" height="575">
+        <text id="11:884" name="Candidatura enviada" x="0" y="0" width="924" height="35" />
+        <frame id="11:885" name="Lista e painel de detalhes" x="0" y="53" width="924" height="522">
+          <frame id="11:886" name="Lista de vagas" x="0" y="0" width="280" height="522">
+            <instance id="11:887" name="Filtrar vagas" x="0" y="0" width="280" height="44" />
+            <text id="11:889" name="3 vagas encontradas" x="0" y="58" width="280" height="17" />
+            <instance id="11:890" name="Card / Vaga" x="0" y="89" width="280" height="135" />
+            <instance id="11:895" name="Card / Vaga" x="0" y="238" width="280" height="135" />
+            <instance id="11:900" name="Card / Vaga" x="0" y="387" width="280" height="135" />
+          </frame>
+          <frame id="11:905" name="Painel da vaga" x="304" y="0" width="620" height="459">
+            <frame id="11:906" name="Mais informações" x="0" y="0" width="620" height="205">
+              <text id="11:907" name="Auxiliar administrativo" x="21" y="21" width="580" height="35" />
+              <text id="11:908" name="Empresa Horizonte • CLT • Presencial" x="21" y="72" width="580" height="20" />
+              <text id="11:909" name="R$ 1.900 / mês" x="21" y="108" width="580" height="20" />
+              <text id="11:910" name="Organize documentos, atenda clientes e apoie as rotinas administrativas. Ensino médio completo e organização." x="21" y="144" width="580" height="40" />
+            </frame>
+            <frame id="11:911" name="✓ Candidatura enviada com sucesso" x="0" y="221" width="620" height="118">
+              <text id="11:912" name="✓ Candidatura enviada com sucesso" x="21" y="21" width="580" height="20" />
+              <text id="11:913" name="A empresa já pode consultar seu currículo. Acompanhe a situação em Minhas candidaturas." x="21" y="57" width="580" height="40" />
+            </frame>
+            <instance id="11:914" name="Acompanhar candidatura" x="0" y="355" width="310" height="44" />
+            <instance id="11:916" name="Voltar para a vaga" x="0" y="415" width="260" height="44" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18149" name="Candidato — Experiências profissionais" x="5840" y="1670" width="1200" height="840">
+    <frame id="11:969" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="11:970" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="11:972" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="11:973" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="11:974" name="Conteúdo" x="1" y="93" width="1200" height="626">
+      <frame id="11:975" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="11:976" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="11:977" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="11:978" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="11:980" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="11:982" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="11:984" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="11:985" name="Área principal" x="252" y="24" width="924" height="578">
+        <text id="11:986" name="Meu currículo" x="0" y="0" width="924" height="35" />
+        <text id="11:987" name="1. Escolaridade e habilidades → 2. Experiências" x="0" y="53" width="924" height="20" />
+        <frame id="11:988" name="Experiência profissional" x="0" y="91" width="924" height="425">
+          <text id="11:989" name="Experiências profissionais" x="21" y="21" width="884" height="35" />
+          <frame id="11:990" name="Cargo e empresa" x="21" y="72" width="884" height="68">
+            <instance id="11:991" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="11:995" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <text id="11:999" name="Emprego atual: ○ Sim ◉ Não" x="21" y="156" width="884" height="20" />
+          <frame id="11:1000" name="Datas e modalidade" x="21" y="192" width="884" height="68">
+            <instance id="11:1001" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="11:1005" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <instance id="11:1009" name="Campo / Texto" x="21" y="276" width="884" height="68" />
+          <instance id="11:1013" name="+ Adicionar experiência" x="21" y="360" width="300" height="44" />
+        </frame>
+        <frame id="11:1015" name="Salvar currículo" x="0" y="534" width="812" height="44">
+          <instance id="11:1016" name="Cancelar alterações" x="0" y="0" width="240" height="44" />
+          <instance id="11:1018" name="Salvar currículo" x="256" y="0" width="240" height="44" />
+          <instance id="11:1020" name="Ver validação de campos" x="512" y="0" width="300" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18197" name="Candidato — Currículo salvo com sucesso" x="3200" y="2630" width="1200" height="840">
+    <frame id="11:1079" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="11:1080" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="11:1082" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="11:1083" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="11:1084" name="Conteúdo" x="1" y="93" width="1200" height="804">
+      <frame id="11:1085" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="11:1086" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="11:1087" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="11:1088" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="11:1090" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="11:1092" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="11:1094" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="11:1095" name="Área principal" x="252" y="24" width="924" height="756">
+        <text id="11:1096" name="Meu currículo" x="0" y="0" width="924" height="35" />
+        <text id="11:1097" name="1. Escolaridade e habilidades → 2. Experiências" x="0" y="53" width="924" height="20" />
+        <frame id="11:1098" name="Experiência profissional" x="0" y="91" width="924" height="425">
+          <text id="11:1099" name="Experiências profissionais" x="21" y="21" width="884" height="35" />
+          <frame id="11:1100" name="Cargo e empresa" x="21" y="72" width="884" height="68">
+            <instance id="11:1101" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="11:1105" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <text id="11:1109" name="Emprego atual: ○ Sim ◉ Não" x="21" y="156" width="884" height="20" />
+          <frame id="11:1110" name="Datas e modalidade" x="21" y="192" width="884" height="68">
+            <instance id="11:1111" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="11:1115" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <instance id="11:1119" name="Campo / Texto" x="21" y="276" width="884" height="68" />
+          <instance id="11:1123" name="+ Adicionar experiência" x="21" y="360" width="300" height="44" />
+        </frame>
+        <frame id="11:1125" name="Salvar currículo" x="0" y="534" width="496" height="44">
+          <instance id="11:1126" name="Cancelar alterações" x="0" y="0" width="240" height="44" />
+          <instance id="11:1128" name="Salvar currículo" x="256" y="0" width="240" height="44" />
+        </frame>
+        <frame id="11:1130" name="✓ Currículo salvo com sucesso" x="0" y="596" width="924" height="98">
+          <text id="11:1131" name="✓ Currículo salvo com sucesso" x="21" y="21" width="884" height="20" />
+          <text id="11:1132" name="Suas informações estão atualizadas e prontas para as próximas candidaturas." x="21" y="57" width="884" height="20" />
+        </frame>
+        <instance id="11:1133" name="Buscar vagas" x="0" y="712" width="240" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18242" name="Candidato — Já é candidato" x="4520" y="2630" width="1200" height="840">
+    <frame id="11:755" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="11:756" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="11:758" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="11:759" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="11:760" name="Conteúdo" x="1" y="93" width="1200" height="623">
+      <frame id="11:761" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="11:762" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="11:763" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="11:764" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="11:766" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="11:768" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="11:770" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="11:771" name="Área principal" x="252" y="24" width="924" height="575">
+        <text id="11:772" name="Vagas" x="0" y="0" width="924" height="35" />
+        <frame id="11:773" name="Lista e painel de detalhes" x="0" y="53" width="924" height="522">
+          <frame id="11:774" name="Lista de vagas" x="0" y="0" width="280" height="522">
+            <instance id="11:775" name="Filtrar vagas" x="0" y="0" width="280" height="44" />
+            <text id="11:777" name="3 vagas encontradas" x="0" y="58" width="280" height="17" />
+            <instance id="11:778" name="Card / Vaga" x="0" y="89" width="280" height="135" />
+            <instance id="11:783" name="Card / Vaga" x="0" y="238" width="280" height="135" />
+            <instance id="11:788" name="Card / Vaga" x="0" y="387" width="280" height="135" />
+          </frame>
+          <frame id="11:793" name="Painel da vaga" x="304" y="0" width="620" height="492">
+            <frame id="11:794" name="Mais informações" x="0" y="0" width="620" height="205">
+              <text id="11:795" name="Auxiliar administrativo" x="21" y="21" width="580" height="35" />
+              <text id="11:796" name="Empresa Horizonte • CLT • Presencial" x="21" y="72" width="580" height="20" />
+              <text id="11:797" name="R$ 1.900 / mês" x="21" y="108" width="580" height="20" />
+              <text id="11:798" name="Organize documentos, atenda clientes e apoie as rotinas administrativas. Ensino médio completo e organização." x="21" y="144" width="580" height="40" />
+            </frame>
+            <frame id="11:799" name="Localização" x="0" y="221" width="620" height="118">
+              <text id="11:800" name="Localização" x="21" y="21" width="580" height="20" />
+              <text id="11:801" name="Centro • a aproximadamente 1,8 km Endereço completo informado pela empresa." x="21" y="57" width="580" height="40" />
+            </frame>
+            <frame id="11:802" name="Ações da vaga" x="0" y="355" width="576" height="44">
+              <instance id="11:803" name="Enviar dúvida" x="0" y="0" width="260" height="44" />
+              <instance id="11:805" name="✓ Já é candidato" x="276" y="0" width="300" height="44" />
+            </frame>
+            <text id="11:807" name="Você já enviou sua candidatura para esta vaga." x="0" y="415" width="620" height="17" />
+            <instance id="11:808" name="Ver minha candidatura" x="0" y="448" width="280" height="44" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18288" name="Representante — Início" x="9000" y="-250" width="1200" height="840">
+    <frame id="17:283" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:284" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:286" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:287" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:288" name="Conteúdo" x="1" y="93" width="1200" height="490">
+      <frame id="17:289" name="Área principal" x="24" y="24" width="924" height="442">
+        <text id="17:290" name="Bem-vindo, Carlos" x="0" y="0" width="924" height="35" />
+        <text id="17:291" name="Gerencie as oportunidades da Empresa Horizonte." x="0" y="53" width="924" height="20" />
+        <frame id="17:292" name="Atalhos principais" x="0" y="91" width="924" height="173">
+          <frame id="17:293" name="Gerenciamento de vagas" x="0" y="0" width="452" height="173">
+            <text id="17:294" name="Gerenciamento de vagas" x="21" y="21" width="412" height="35" />
+            <text id="17:295" name="Consulte vagas, inscrições e dúvidas em um só lugar." x="21" y="72" width="412" height="20" />
+            <instance id="17:296" name="Gerenciar vagas" x="21" y="108" width="300" height="44" />
+          </frame>
+          <frame id="17:298" name="Registrar vaga" x="472" y="0" width="452" height="173">
+            <text id="17:299" name="Registrar vaga" x="21" y="21" width="412" height="35" />
+            <text id="17:300" name="Apresente uma oportunidade e revise antes de publicar." x="21" y="72" width="412" height="20" />
+            <instance id="17:301" name="Registrar vaga" x="21" y="108" width="300" height="44" />
+          </frame>
+        </frame>
+        <frame id="17:303" name="Notícias e atualizações" x="0" y="282" width="924" height="98">
+          <text id="17:304" name="Notícias e atualizações" x="21" y="21" width="884" height="20" />
+          <text id="17:305" name="Há 12 inscrições na vaga Auxiliar administrativo e uma dúvida aguardando sua resposta." x="21" y="57" width="884" height="20" />
+        </frame>
+        <instance id="17:306" name="Ver inscrições" x="0" y="398" width="240" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18302" name="Representante — Menu aberto" x="10320" y="-250" width="1200" height="840">
+    <frame id="17:308" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:309" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:311" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:312" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:313" name="Conteúdo" x="1" y="93" width="1200" height="490">
+      <frame id="17:314" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:315" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:316" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:317" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:319" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:321" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:323" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:325" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:327" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:328" name="Área principal" x="252" y="24" width="924" height="442">
+        <text id="17:329" name="Bem-vindo, Carlos" x="0" y="0" width="924" height="35" />
+        <text id="17:330" name="Gerencie as oportunidades da Empresa Horizonte." x="0" y="53" width="924" height="20" />
+        <frame id="17:331" name="Atalhos principais" x="0" y="91" width="924" height="173">
+          <frame id="17:332" name="Gerenciamento de vagas" x="0" y="0" width="452" height="173">
+            <text id="17:333" name="Gerenciamento de vagas" x="21" y="21" width="412" height="35" />
+            <text id="17:334" name="Consulte vagas, inscrições e dúvidas em um só lugar." x="21" y="72" width="412" height="20" />
+            <instance id="17:335" name="Gerenciar vagas" x="21" y="108" width="300" height="44" />
+          </frame>
+          <frame id="17:337" name="Registrar vaga" x="472" y="0" width="452" height="173">
+            <text id="17:338" name="Registrar vaga" x="21" y="21" width="412" height="35" />
+            <text id="17:339" name="Apresente uma oportunidade e revise antes de publicar." x="21" y="72" width="412" height="20" />
+            <instance id="17:340" name="Registrar vaga" x="21" y="108" width="300" height="44" />
+          </frame>
+        </frame>
+        <frame id="17:342" name="Notícias e atualizações" x="0" y="282" width="924" height="98">
+          <text id="17:343" name="Notícias e atualizações" x="21" y="21" width="884" height="20" />
+          <text id="17:344" name="Há 12 inscrições na vaga Auxiliar administrativo e uma dúvida aguardando sua resposta." x="21" y="57" width="884" height="20" />
+        </frame>
+        <instance id="17:345" name="Ver inscrições" x="0" y="398" width="240" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18328" name="Representante — Registrar vaga" x="11640" y="-250" width="1200" height="840">
+    <frame id="17:389" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:390" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:392" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:393" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:394" name="Conteúdo" x="1" y="93" width="1200" height="877">
+      <frame id="17:395" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:396" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:397" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:398" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:400" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:402" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:404" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:406" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:408" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:409" name="Área principal" x="252" y="24" width="924" height="829">
+        <text id="17:410" name="Registrar vaga" x="0" y="0" width="924" height="35" />
+        <text id="17:411" name="Os campos marcados com * são obrigatórios." x="0" y="53" width="924" height="17" />
+        <frame id="17:412" name="Dados da vaga" x="0" y="88" width="924" height="617">
+          <text id="17:413" name="Informações da oportunidade" x="21" y="21" width="884" height="35" />
+          <frame id="17:414" name="Vaga e período" x="21" y="72" width="884" height="68">
+            <instance id="17:415" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:419" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <frame id="17:423" name="Data e modalidade" x="21" y="156" width="884" height="68">
+            <instance id="17:424" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:428" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <text id="17:432" name="Local" x="21" y="240" width="884" height="20" />
+          <frame id="17:433" name="Estado e município" x="21" y="276" width="884" height="68">
+            <instance id="17:434" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:438" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <frame id="17:442" name="Bairro e endereço" x="21" y="360" width="884" height="68">
+            <instance id="17:443" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:447" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <frame id="17:451" name="Remuneração e benefícios" x="21" y="444" width="884" height="68">
+            <instance id="17:452" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:456" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <instance id="17:460" name="Campo / Texto" x="21" y="528" width="884" height="68" />
+        </frame>
+        <frame id="17:464" name="Salvar e revisar" x="0" y="723" width="924" height="44">
+          <instance id="17:465" name="Cancelar" x="0" y="0" width="200" height="44" />
+          <instance id="17:467" name="Continuar" x="216" y="0" width="300" height="44" />
+        </frame>
+        <instance id="17:469" name="Preencher com exemplo" x="0" y="785" width="300" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18362" name="Representante — Publicação com campos inválidos" x="9000" y="710" width="1200" height="840">
+    <frame id="17:631" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:632" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:634" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:635" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:636" name="Conteúdo" x="1" y="93" width="1200" height="680">
+      <frame id="17:637" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:638" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:639" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:640" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:642" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:644" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:646" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:648" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:650" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:651" name="Área principal" x="252" y="24" width="924" height="632">
+        <text id="17:652" name="Registrar vaga" x="0" y="0" width="924" height="35" />
+        <frame id="17:653" name="Campos que precisam de atenção" x="0" y="53" width="924" height="401">
+          <text id="17:654" name="Revise os campos obrigatórios" x="21" y="21" width="884" height="35" />
+          <instance id="17:655" name="Campo / Texto" x="21" y="72" width="600" height="68" />
+          <text id="17:659" name="! Informe um salário válido." x="21" y="156" width="884" height="20" />
+          <instance id="17:660" name="Campo / Texto" x="21" y="192" width="600" height="68" />
+          <instance id="17:664" name="Campo / Texto" x="21" y="276" width="884" height="68" />
+          <text id="17:668" name="! Preencha a descrição e os requisitos." x="21" y="360" width="884" height="20" />
+        </frame>
+        <frame id="17:669" name="Não foi possível publicar" x="0" y="472" width="924" height="98">
+          <text id="17:670" name="Não foi possível publicar" x="21" y="21" width="884" height="20" />
+          <text id="17:671" name="Há campos não preenchidos ou inválidos. Suas informações foram preservadas." x="21" y="57" width="884" height="20" />
+        </frame>
+        <frame id="17:672" name="Correção" x="0" y="588" width="924" height="44">
+          <instance id="17:673" name="Cancelar" x="0" y="0" width="200" height="44" />
+          <instance id="17:675" name="Corrigir preenchimento" x="216" y="0" width="310" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18383" name="Representante — Gerenciamento de vagas" x="10320" y="710" width="1200" height="840">
+    <frame id="17:347" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:348" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:350" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:351" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:352" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="17:353" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:354" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:355" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:356" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:358" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:360" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:362" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:364" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:366" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:367" name="Área principal" x="252" y="24" width="924" height="383">
+        <text id="17:368" name="Gerenciamento de vagas" x="0" y="0" width="924" height="35" />
+        <frame id="17:369" name="Comandos" x="0" y="53" width="924" height="44">
+          <instance id="17:370" name="Registrar vaga" x="0" y="0" width="260" height="44" />
+          <text id="17:372" name="1 vaga publicada" x="276" y="0" width="400" height="20" />
+        </frame>
+        <frame id="17:373" name="Vaga e ações" x="0" y="115" width="924" height="206">
+          <frame id="17:374" name="Resumo e comandos" x="21" y="21" width="884" height="164">
+            <instance id="17:375" name="Resumo / Vaga gerenciada" x="0" y="0" width="480" height="116" />
+            <frame id="17:380" name="Comandos da vaga" x="500" y="0" width="360" height="164">
+              <instance id="17:381" name="Inscrições e dúvidas" x="0" y="0" width="340" height="44" />
+              <instance id="17:383" name="Alterar" x="0" y="60" width="340" height="44" />
+              <instance id="17:385" name="Excluir" x="0" y="120" width="340" height="44" />
+            </frame>
+          </frame>
+        </frame>
+        <instance id="17:387" name="Abrir vaga publicada" x="0" y="339" width="300" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18428" name="Representante — Alterar vaga" x="11640" y="710" width="1200" height="840">
+    <frame id="17:551" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:552" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:554" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:555" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:556" name="Conteúdo" x="1" y="93" width="1200" height="815">
+      <frame id="17:557" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:558" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:559" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:560" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:562" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:564" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:566" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:568" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:570" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:571" name="Área principal" x="252" y="24" width="924" height="767">
+        <text id="17:572" name="Alterar vaga" x="0" y="0" width="924" height="35" />
+        <text id="17:573" name="Os campos marcados com * são obrigatórios." x="0" y="53" width="924" height="17" />
+        <frame id="17:574" name="Dados da vaga" x="0" y="88" width="924" height="617">
+          <text id="17:575" name="Informações da oportunidade" x="21" y="21" width="884" height="35" />
+          <frame id="17:576" name="Vaga e período" x="21" y="72" width="884" height="68">
+            <instance id="17:577" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:581" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <frame id="17:585" name="Data e modalidade" x="21" y="156" width="884" height="68">
+            <instance id="17:586" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:590" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <text id="17:594" name="Local" x="21" y="240" width="884" height="20" />
+          <frame id="17:595" name="Estado e município" x="21" y="276" width="884" height="68">
+            <instance id="17:596" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:600" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <frame id="17:604" name="Bairro e endereço" x="21" y="360" width="884" height="68">
+            <instance id="17:605" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:609" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <frame id="17:613" name="Remuneração e benefícios" x="21" y="444" width="884" height="68">
+            <instance id="17:614" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:618" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <instance id="17:622" name="Campo / Texto" x="21" y="528" width="884" height="68" />
+        </frame>
+        <frame id="17:626" name="Salvar e revisar" x="0" y="723" width="924" height="44">
+          <instance id="17:627" name="Cancelar" x="0" y="0" width="200" height="44" />
+          <instance id="17:629" name="Continuar alterações" x="216" y="0" width="300" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18468" name="Representante — Registrar vaga preenchida" x="9000" y="1670" width="1200" height="840">
+    <frame id="17:471" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:472" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:474" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:475" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:476" name="Conteúdo" x="1" y="93" width="1200" height="815">
+      <frame id="17:477" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:478" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:479" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:480" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:482" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:484" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:486" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:488" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:490" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:491" name="Área principal" x="252" y="24" width="924" height="767">
+        <text id="17:492" name="Registrar vaga" x="0" y="0" width="924" height="35" />
+        <text id="17:493" name="Os campos marcados com * são obrigatórios." x="0" y="53" width="924" height="17" />
+        <frame id="17:494" name="Dados da vaga" x="0" y="88" width="924" height="617">
+          <text id="17:495" name="Informações da oportunidade" x="21" y="21" width="884" height="35" />
+          <frame id="17:496" name="Vaga e período" x="21" y="72" width="884" height="68">
+            <instance id="17:497" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:501" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <frame id="17:505" name="Data e modalidade" x="21" y="156" width="884" height="68">
+            <instance id="17:506" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:510" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <text id="17:514" name="Local" x="21" y="240" width="884" height="20" />
+          <frame id="17:515" name="Estado e município" x="21" y="276" width="884" height="68">
+            <instance id="17:516" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:520" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <frame id="17:524" name="Bairro e endereço" x="21" y="360" width="884" height="68">
+            <instance id="17:525" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:529" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <frame id="17:533" name="Remuneração e benefícios" x="21" y="444" width="884" height="68">
+            <instance id="17:534" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:538" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <instance id="17:542" name="Campo / Texto" x="21" y="528" width="884" height="68" />
+        </frame>
+        <frame id="17:546" name="Salvar e revisar" x="0" y="723" width="924" height="44">
+          <instance id="17:547" name="Cancelar" x="0" y="0" width="200" height="44" />
+          <instance id="17:549" name="Continuar" x="216" y="0" width="300" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18508" name="Representante — Publicar vaga" x="10320" y="1670" width="1200" height="840">
+    <frame id="17:677" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:678" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:680" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:681" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:682" name="Conteúdo" x="1" y="93" width="1200" height="493">
+      <frame id="17:683" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:684" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:685" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:686" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:688" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:690" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:692" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:694" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:696" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:697" name="Área principal" x="252" y="24" width="924" height="445">
+        <text id="17:698" name="Registrar vaga" x="0" y="0" width="924" height="35" />
+        <frame id="17:699" name="Informações principais" x="0" y="53" width="924" height="118">
+          <text id="17:700" name="Informações principais" x="21" y="21" width="884" height="20" />
+          <text id="17:701" name="Auxiliar administrativo • 18/10/2026 • Integral Centro, São Paulo / SP • Presencial" x="21" y="57" width="884" height="40" />
+        </frame>
+        <frame id="17:702" name="Remuneração e descrição" x="0" y="189" width="924" height="194">
+          <frame id="17:703" name="Salário e benefícios" x="21" y="21" width="884" height="68">
+            <instance id="17:704" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:708" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <instance id="17:712" name="Campo / Texto" x="21" y="105" width="884" height="68" />
+        </frame>
+        <frame id="17:716" name="Revisão" x="0" y="401" width="924" height="44">
+          <instance id="17:717" name="Cancelar" x="0" y="0" width="200" height="44" />
+          <instance id="17:719" name="Publicar" x="216" y="0" width="260" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18532" name="Representante — Confirmar exclusão" x="11640" y="1670" width="1200" height="840">
+    <frame id="17:931" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:932" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:934" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:935" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:936" name="Conteúdo" x="1" y="93" width="1200" height="592">
+      <frame id="17:937" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:938" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:939" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:940" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:942" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:944" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:946" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:948" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:950" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:951" name="Área principal" x="252" y="24" width="924" height="544">
+        <text id="17:952" name="Deseja realmente excluir esta vaga?" x="0" y="0" width="924" height="35" />
+        <frame id="17:953" name="Resumo da vaga" x="0" y="53" width="924" height="313">
+          <text id="17:954" name="Auxiliar administrativo" x="21" y="21" width="884" height="35" />
+          <text id="17:955" name="Nº 1024 • CLT • período integral • Presencial" x="21" y="72" width="884" height="20" />
+          <text id="17:956" name="Data: 18/10/2026 • Salário: R$ 1.900 / mês" x="21" y="108" width="884" height="20" />
+          <text id="17:957" name="Benefícios: vale-transporte e vale-alimentação" x="21" y="144" width="884" height="20" />
+          <text id="17:958" name="Centro • São Paulo / SP Rua Exemplo, 120 — CEP 01000-000" x="21" y="180" width="884" height="40" />
+          <text id="17:959" name="Descrição e requisitos" x="21" y="236" width="884" height="20" />
+          <text id="17:960" name="Organize documentos, atenda clientes e apoie rotinas administrativas. Ensino médio completo e organização." x="21" y="272" width="884" height="20" />
+        </frame>
+        <frame id="17:961" name="Confirme a exclusão" x="0" y="384" width="924" height="98">
+          <text id="17:962" name="Confirme a exclusão" x="21" y="21" width="884" height="20" />
+          <text id="17:963" name="A vaga será removida da listagem. A operação e seu impacto nas inscrições devem seguir a política definida pelo sistema." x="21" y="57" width="884" height="20" />
+        </frame>
+        <frame id="17:964" name="Excluir ou voltar" x="0" y="500" width="924" height="44">
+          <instance id="17:965" name="Voltar para o gerenciamento" x="0" y="0" width="350" height="44" />
+          <instance id="17:967" name="Confirmar exclusão" x="366" y="0" width="280" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18550" name="Representante — Publicar alterações" x="9000" y="2630" width="1200" height="840">
+    <frame id="17:721" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:722" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:724" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:725" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:726" name="Conteúdo" x="1" y="93" width="1200" height="493">
+      <frame id="17:727" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:728" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:729" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:730" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:732" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:734" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:736" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:738" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:740" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:741" name="Área principal" x="252" y="24" width="924" height="445">
+        <text id="17:742" name="Alterar vaga" x="0" y="0" width="924" height="35" />
+        <frame id="17:743" name="Informações principais" x="0" y="53" width="924" height="118">
+          <text id="17:744" name="Informações principais" x="21" y="21" width="884" height="20" />
+          <text id="17:745" name="Auxiliar administrativo • 18/10/2026 • Integral Centro, São Paulo / SP • Presencial" x="21" y="57" width="884" height="40" />
+        </frame>
+        <frame id="17:746" name="Remuneração e descrição" x="0" y="189" width="924" height="194">
+          <frame id="17:747" name="Salário e benefícios" x="21" y="21" width="884" height="68">
+            <instance id="17:748" name="Campo / Texto" x="0" y="0" width="432" height="68" />
+            <instance id="17:752" name="Campo / Texto" x="452" y="0" width="432" height="68" />
+          </frame>
+          <instance id="17:756" name="Campo / Texto" x="21" y="105" width="884" height="68" />
+        </frame>
+        <frame id="17:760" name="Revisão" x="0" y="401" width="924" height="44">
+          <instance id="17:761" name="Cancelar" x="0" y="0" width="200" height="44" />
+          <instance id="17:763" name="Publicar" x="216" y="0" width="260" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18574" name="Representante — Confirme as informações" x="10320" y="2630" width="1200" height="840">
+    <frame id="17:765" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:766" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:768" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:769" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:770" name="Conteúdo" x="1" y="93" width="1200" height="538">
+      <frame id="17:771" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:772" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:773" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:774" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:776" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:778" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:780" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:782" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:784" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:785" name="Área principal" x="252" y="24" width="924" height="490">
+        <text id="17:786" name="Confirme as informações" x="0" y="0" width="924" height="35" />
+        <frame id="17:787" name="Resumo da vaga" x="0" y="53" width="924" height="313">
+          <text id="17:788" name="Auxiliar administrativo" x="21" y="21" width="884" height="35" />
+          <text id="17:789" name="Nº 1024 • CLT • período integral • Presencial" x="21" y="72" width="884" height="20" />
+          <text id="17:790" name="Data: 18/10/2026 • Salário: R$ 1.900 / mês" x="21" y="108" width="884" height="20" />
+          <text id="17:791" name="Benefícios: vale-transporte e vale-alimentação" x="21" y="144" width="884" height="20" />
+          <text id="17:792" name="Centro • São Paulo / SP Rua Exemplo, 120 — CEP 01000-000" x="21" y="180" width="884" height="40" />
+          <text id="17:793" name="Descrição e requisitos" x="21" y="236" width="884" height="20" />
+          <text id="17:794" name="Organize documentos, atenda clientes e apoie rotinas administrativas. Ensino médio completo e organização." x="21" y="272" width="884" height="20" />
+        </frame>
+        <frame id="17:795" name="Confirmação final" x="0" y="384" width="924" height="44">
+          <instance id="17:796" name="Confirmar e publicar" x="0" y="0" width="280" height="44" />
+          <instance id="17:798" name="Voltar para preenchimento" x="296" y="0" width="340" height="44" />
+          <instance id="17:800" name="Cancelar" x="652" y="0" width="220" height="44" />
+        </frame>
+        <instance id="17:802" name="Simular falha de publicação" x="0" y="446" width="340" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18595" name="Representante — Vaga publicada" x="11640" y="2630" width="1200" height="840">
+    <frame id="17:843" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:844" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:846" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:847" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:848" name="Conteúdo" x="1" y="93" width="1200" height="496">
+      <frame id="17:849" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:850" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:851" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:852" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:854" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:856" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:858" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:860" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:862" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:863" name="Área principal" x="252" y="24" width="924" height="448">
+        <text id="17:864" name="✓ Vaga publicada" x="0" y="0" width="924" height="35" />
+        <frame id="17:865" name="Informações e gerenciamento" x="0" y="53" width="924" height="333">
+          <frame id="17:866" name="Resumo da vaga" x="0" y="0" width="580" height="333">
+            <text id="17:867" name="Auxiliar administrativo" x="21" y="21" width="540" height="35" />
+            <text id="17:868" name="Nº 1024 • CLT • período integral • Presencial" x="21" y="72" width="540" height="20" />
+            <text id="17:869" name="Data: 18/10/2026 • Salário: R$ 1.900 / mês" x="21" y="108" width="540" height="20" />
+            <text id="17:870" name="Benefícios: vale-transporte e vale-alimentação" x="21" y="144" width="540" height="20" />
+            <text id="17:871" name="Centro • São Paulo / SP Rua Exemplo, 120 — CEP 01000-000" x="21" y="180" width="540" height="40" />
+            <text id="17:872" name="Descrição e requisitos" x="21" y="236" width="540" height="20" />
+            <text id="17:873" name="Organize documentos, atenda clientes e apoie rotinas administrativas. Ensino médio completo e organização." x="21" y="272" width="540" height="40" />
+          </frame>
+          <frame id="17:874" name="Ações da oportunidade" x="600" y="0" width="324" height="284">
+            <instance id="17:875" name="Acompanhar candidaturas" x="0" y="0" width="324" height="44" />
+            <instance id="17:877" name="Alterar vaga" x="0" y="60" width="324" height="44" />
+            <instance id="17:879" name="Informações de visualizações" x="0" y="120" width="324" height="44" />
+            <instance id="17:881" name="Dúvidas / comentários" x="0" y="180" width="324" height="44" />
+            <instance id="17:883" name="Encerrar vaga" x="0" y="240" width="324" height="44" />
+          </frame>
+        </frame>
+        <instance id="17:885" name="Gerenciamento de vagas" x="0" y="404" width="310" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18621" name="Representante — Vaga excluída" x="9000" y="3590" width="1200" height="840">
+    <frame id="17:969" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:970" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:972" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:973" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:974" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="17:975" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:976" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:977" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:978" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:980" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:982" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:984" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:986" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:988" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:989" name="Área principal" x="252" y="24" width="924" height="233">
+        <text id="17:990" name="✓ Vaga excluída" x="0" y="0" width="924" height="35" />
+        <frame id="17:991" name="Exclusão confirmada" x="0" y="53" width="924" height="118">
+          <text id="17:992" name="Exclusão confirmada" x="21" y="21" width="884" height="20" />
+          <text id="17:993" name="Auxiliar administrativo • Nº 1024 A vaga foi retirada da listagem." x="21" y="57" width="884" height="40" />
+        </frame>
+        <instance id="17:994" name="Gerenciamento de vagas" x="0" y="189" width="310" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="4:18637" name="Representante — Gerenciamento de inscrições" x="10320" y="3590" width="1200" height="840">
+    <frame id="17:996" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:997" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:999" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:1000" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:1001" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="17:1002" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:1003" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:1004" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:1005" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:1007" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:1009" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:1011" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:1013" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:1015" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:1016" name="Área principal" x="252" y="24" width="924" height="394">
+        <text id="17:1017" name="Gerenciamento de inscrições" x="0" y="0" width="924" height="35" />
+        <text id="17:1018" name="Auxiliar administrativo • Nº 1024" x="0" y="53" width="924" height="20" />
+        <frame id="17:1019" name="Atalhos" x="0" y="91" width="924" height="44">
+          <instance id="17:1020" name="Gerenciamento de vagas" x="0" y="0" width="310" height="44" />
+          <instance id="17:1022" name="Dúvidas da vaga" x="326" y="0" width="260" height="44" />
+        </frame>
+        <frame id="17:1024" name="Candidatura e ações" x="0" y="153" width="924" height="206">
+          <frame id="17:1025" name="Resumo do candidato" x="21" y="21" width="884" height="164">
+            <instance id="17:1026" name="Resumo / Candidatura" x="0" y="0" width="480" height="116" />
+            <frame id="17:1031" name="Ações da candidatura" x="500" y="0" width="360" height="164">
+              <instance id="17:1032" name="Expandir currículo" x="0" y="0" width="340" height="44" />
+              <instance id="17:1034" name="Entrar em contato" x="0" y="60" width="340" height="44" />
+              <frame id="17:1036" name="Decisão" x="0" y="120" width="360" height="44">
+                <instance id="17:1037" name="Aprovar" x="0" y="0" width="162" height="44" />
+                <instance id="17:1039" name="Reprovar" x="178" y="0" width="162" height="44" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <text id="17:1041" name="Mostrando uma candidatura de exemplo." x="0" y="377" width="924" height="17" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="9:15" name="TR • Componentes" x="7160" y="5800" width="1200" height="878">
+    <text id="9:16" name="Componentes reutilizáveis" x="32" y="32" width="309" height="35" />
+    <text id="9:17" name="Base local • monocromática • um modo • mesma página" x="32" y="91" width="375" height="20" />
+    <symbol id="9:18" name="Botão / Contorno" x="32" y="135" width="210" height="44" />
+    <symbol id="9:20" name="Botão / Principal" x="32" y="203" width="210" height="44" />
+    <symbol id="9:22" name="Botão / Desativado" x="32" y="271" width="210" height="44" />
+    <symbol id="9:24" name="Campo / Texto" x="32" y="339" width="400" height="68" />
+    <symbol id="9:28" name="Card / Vaga" x="32" y="431" width="290" height="135" />
+    <symbol id="15:283" name="Resumo / Vaga gerenciada" x="32" y="590" width="480" height="116" />
+    <symbol id="15:288" name="Resumo / Candidatura" x="32" y="730" width="480" height="116" />
+  </frame>
+  <frame id="10:2" name="Candidato — Filtrar vagas" x="5840" y="2630" width="1200" height="840">
+    <frame id="12:210" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="12:211" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="12:213" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="12:214" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="12:215" name="Conteúdo" x="1" y="93" width="1200" height="586">
+      <frame id="12:216" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="12:217" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="12:218" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="12:219" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="12:221" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="12:223" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="12:225" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="12:226" name="Área principal" x="252" y="24" width="924" height="538">
+        <text id="12:227" name="Filtrar vagas" x="0" y="0" width="924" height="35" />
+        <frame id="12:228" name="Filtros de busca" x="0" y="53" width="924" height="485">
+          <text id="12:229" name="Encontre oportunidades próximas" x="21" y="21" width="884" height="35" />
+          <instance id="12:230" name="Campo / Texto" x="21" y="72" width="600" height="68" />
+          <instance id="12:234" name="Campo / Texto" x="21" y="156" width="600" height="68" />
+          <instance id="12:238" name="Campo / Texto" x="21" y="240" width="600" height="68" />
+          <text id="12:242" name="Localização não disponível? Informe seu bairro na busca." x="21" y="324" width="884" height="20" />
+          <frame id="12:243" name="Aplicar filtros" x="21" y="360" width="496" height="44">
+            <instance id="12:244" name="Aplicar filtros" x="0" y="0" width="240" height="44" />
+            <instance id="12:246" name="Limpar filtros" x="256" y="0" width="240" height="44" />
+          </frame>
+          <instance id="12:248" name="Ver exemplo sem resultados" x="21" y="420" width="320" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="10:3" name="Candidato — Enviar dúvida" x="3200" y="3590" width="1200" height="840">
+    <frame id="12:250" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="12:251" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="12:253" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="12:254" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="12:255" name="Conteúdo" x="1" y="93" width="1200" height="361">
+      <frame id="12:256" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="12:257" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="12:258" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="12:259" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="12:261" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="12:263" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="12:265" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="12:266" name="Área principal" x="252" y="24" width="924" height="310">
+        <text id="12:267" name="Enviar dúvida" x="0" y="0" width="924" height="35" />
+        <frame id="12:268" name="Mensagem ao representante" x="0" y="53" width="924" height="257">
+          <text id="12:269" name="Auxiliar administrativo • Empresa Horizonte" x="21" y="21" width="884" height="35" />
+          <instance id="12:270" name="Campo / Texto" x="21" y="72" width="884" height="68" />
+          <text id="12:274" name="Sua pergunta será enviada ao representante responsável." x="21" y="156" width="884" height="20" />
+          <frame id="12:275" name="Ações" x="21" y="192" width="456" height="44">
+            <instance id="12:276" name="Voltar" x="0" y="0" width="200" height="44" />
+            <instance id="12:278" name="Enviar dúvida" x="216" y="0" width="240" height="44" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="10:4" name="Candidato — Dúvida enviada" x="4520" y="3590" width="1200" height="840">
+    <frame id="12:280" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="12:281" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="12:283" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="12:284" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="12:285" name="Conteúdo" x="1" y="93" width="1200" height="361">
+      <frame id="12:286" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="12:287" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="12:288" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="12:289" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="12:291" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="12:293" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="12:295" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="12:296" name="Área principal" x="252" y="24" width="924" height="213">
+        <text id="12:297" name="Dúvida enviada" x="0" y="0" width="924" height="35" />
+        <frame id="12:298" name="✓ Mensagem enviada" x="0" y="53" width="924" height="98">
+          <text id="12:299" name="✓ Mensagem enviada" x="21" y="21" width="884" height="20" />
+          <text id="12:300" name="Sua dúvida foi encaminhada ao representante. Você poderá consultar a resposta pelo contato da candidatura." x="21" y="57" width="884" height="20" />
+        </frame>
+        <instance id="12:301" name="Voltar para a vaga" x="0" y="169" width="280" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="10:5" name="Candidato — Cancelar candidatura" x="5840" y="3590" width="1200" height="840">
+    <frame id="12:303" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="12:304" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="12:306" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="12:307" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="12:308" name="Conteúdo" x="1" y="93" width="1200" height="361">
+      <frame id="12:309" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="12:310" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="12:311" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="12:312" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="12:314" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="12:316" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="12:318" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="12:319" name="Área principal" x="252" y="24" width="924" height="262">
+        <text id="12:320" name="Cancelar candidatura" x="0" y="0" width="924" height="35" />
+        <frame id="12:321" name="Confirmação de cancelamento" x="0" y="53" width="924" height="209">
+          <text id="12:322" name="Deseja cancelar sua inscrição?" x="21" y="21" width="884" height="35" />
+          <text id="12:323" name="Auxiliar administrativo • Empresa Horizonte" x="21" y="72" width="884" height="20" />
+          <text id="12:324" name="O cancelamento será registrado e a empresa deixará de avaliar esta inscrição." x="21" y="108" width="884" height="20" />
+          <frame id="12:325" name="Escolha" x="21" y="144" width="586" height="44">
+            <instance id="12:326" name="Manter candidatura" x="0" y="0" width="260" height="44" />
+            <instance id="12:328" name="Confirmar cancelamento" x="276" y="0" width="310" height="44" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="10:6" name="Candidato — Candidatura cancelada" x="3200" y="4550" width="1200" height="840">
+    <frame id="12:330" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="12:331" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="12:333" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="12:334" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="12:335" name="Conteúdo" x="1" y="93" width="1200" height="361">
+      <frame id="12:336" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="12:337" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="12:338" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="12:339" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="12:341" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="12:343" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="12:345" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="12:346" name="Área principal" x="252" y="24" width="924" height="233">
+        <text id="12:347" name="Candidatura cancelada" x="0" y="0" width="924" height="35" />
+        <frame id="12:348" name="✓ Inscrição cancelada" x="0" y="53" width="924" height="118">
+          <text id="12:349" name="✓ Inscrição cancelada" x="21" y="21" width="884" height="20" />
+          <text id="12:350" name="Auxiliar administrativo • Empresa Horizonte Situação: Cancelada. As demais candidaturas continuam ativas." x="21" y="57" width="884" height="40" />
+        </frame>
+        <instance id="12:351" name="Buscar outras vagas" x="0" y="189" width="280" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="10:7" name="Candidato — Situação da candidatura" x="4520" y="4550" width="1200" height="840">
+    <frame id="12:353" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="12:354" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="12:356" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="12:357" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="12:358" name="Conteúdo" x="1" y="93" width="1200" height="485">
+      <frame id="12:359" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="12:360" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="12:361" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="12:362" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="12:364" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="12:366" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="12:368" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="12:369" name="Área principal" x="252" y="24" width="924" height="437">
+        <text id="12:370" name="Situação da candidatura" x="0" y="0" width="924" height="35" />
+        <frame id="12:371" name="Acompanhamento" x="0" y="53" width="924" height="322">
+          <text id="12:372" name="Auxiliar administrativo" x="21" y="21" width="884" height="35" />
+          <text id="12:373" name="Empresa Horizonte • inscrita em 18/10/2026" x="21" y="72" width="884" height="20" />
+          <text id="12:374" name="◉ Enviada — 18/10/2026 ○ Em análise ○ Retorno da empresa" x="21" y="108" width="884" height="100" />
+          <text id="12:375" name="A situação muda quando o representante atualiza a candidatura." x="21" y="224" width="884" height="17" />
+          <instance id="12:376" name="Entrar em contato" x="21" y="257" width="280" height="44" />
+        </frame>
+        <instance id="12:378" name="Voltar para candidaturas" x="0" y="393" width="310" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="10:8" name="Candidato — Nenhuma vaga encontrada" x="5840" y="4550" width="1200" height="840">
+    <frame id="12:380" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="12:381" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="12:383" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="12:384" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="12:385" name="Conteúdo" x="1" y="93" width="1200" height="361">
+      <frame id="12:386" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="12:387" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="12:388" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="12:389" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="12:391" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="12:393" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="12:395" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="12:396" name="Área principal" x="252" y="24" width="924" height="291">
+        <text id="12:397" name="Vagas" x="0" y="0" width="924" height="35" />
+        <frame id="12:398" name="Lista e painel de detalhes" x="0" y="53" width="924" height="238">
+          <frame id="12:399" name="Lista de vagas" x="0" y="0" width="280" height="75">
+            <instance id="12:400" name="Filtrar vagas" x="0" y="0" width="280" height="44" />
+            <text id="12:402" name="0 vagas encontradas" x="0" y="58" width="280" height="17" />
+          </frame>
+          <frame id="12:418" name="Painel da vaga" x="304" y="0" width="620" height="238">
+            <frame id="12:419" name="Nenhuma vaga encontrada" x="0" y="0" width="620" height="118">
+              <text id="12:420" name="Nenhuma vaga encontrada" x="21" y="21" width="580" height="20" />
+              <text id="12:421" name="Não encontramos oportunidades com esses filtros. Tente ampliar a distância ou mudar o tipo de vaga." x="21" y="57" width="580" height="40" />
+            </frame>
+            <instance id="12:422" name="Alterar filtros" x="0" y="134" width="260" height="44" />
+            <instance id="12:424" name="Limpar filtros" x="0" y="194" width="260" height="44" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="10:9" name="Candidato — Falha ao enviar" x="3200" y="5510" width="1200" height="840">
+    <frame id="12:426" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="12:427" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="12:429" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="12:430" name="ÁREA DO CANDIDATO" x="750" y="37.5" width="126" height="17" />
+    </frame>
+    <frame id="12:431" name="Conteúdo" x="1" y="93" width="1200" height="623">
+      <frame id="12:432" name="Navegação lateral" x="24" y="24" width="204" height="313">
+        <text id="12:433" name="Seu próximo passo" x="16" y="16" width="172" height="20" />
+        <text id="12:434" name="Olá, Ana" x="16" y="48" width="172" height="35" />
+        <instance id="12:435" name="Buscar vagas" x="16" y="95" width="172" height="44" />
+        <instance id="12:437" name="Minhas candidaturas" x="16" y="151" width="172" height="44" />
+        <instance id="12:439" name="Perfil / Currículo" x="16" y="207" width="172" height="44" />
+        <text id="12:441" name="Currículo atualizado Seus dados estão com você." x="16" y="263" width="172" height="34" />
+      </frame>
+      <frame id="12:442" name="Área principal" x="252" y="24" width="924" height="575">
+        <text id="12:443" name="Enviar candidatura" x="0" y="0" width="924" height="35" />
+        <frame id="12:444" name="Lista e painel de detalhes" x="0" y="53" width="924" height="522">
+          <frame id="12:445" name="Lista de vagas" x="0" y="0" width="280" height="522">
+            <instance id="12:446" name="Filtrar vagas" x="0" y="0" width="280" height="44" />
+            <text id="12:448" name="3 vagas encontradas" x="0" y="58" width="280" height="17" />
+            <instance id="12:449" name="Card / Vaga" x="0" y="89" width="280" height="135" />
+            <instance id="12:454" name="Card / Vaga" x="0" y="238" width="280" height="135" />
+            <instance id="12:459" name="Card / Vaga" x="0" y="387" width="280" height="135" />
+          </frame>
+          <frame id="12:464" name="Painel da vaga" x="304" y="0" width="620" height="459">
+            <frame id="12:465" name="Mais informações" x="0" y="0" width="620" height="205">
+              <text id="12:466" name="Auxiliar administrativo" x="21" y="21" width="580" height="35" />
+              <text id="12:467" name="Empresa Horizonte • CLT • Presencial" x="21" y="72" width="580" height="20" />
+              <text id="12:468" name="R$ 1.900 / mês" x="21" y="108" width="580" height="20" />
+              <text id="12:469" name="Organize documentos, atenda clientes e apoie as rotinas administrativas. Ensino médio completo e organização." x="21" y="144" width="580" height="40" />
+            </frame>
+            <frame id="12:470" name="Não foi possível enviar" x="0" y="221" width="620" height="118">
+              <text id="12:471" name="Não foi possível enviar" x="21" y="21" width="580" height="20" />
+              <text id="12:472" name="Sua candidatura ainda não foi confirmada. A mensagem foi preservada para você tentar novamente." x="21" y="57" width="580" height="40" />
+            </frame>
+            <instance id="12:473" name="Tentar novamente" x="0" y="355" width="280" height="44" />
+            <instance id="12:475" name="Revisar mensagem" x="0" y="415" width="280" height="44" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="10:10" name="TR • Guia do protótipo" x="3200" y="-480" width="3840" height="150">
+    <text id="10:11" name="CANDIDATO / PTTP-01" x="24" y="20" width="264" height="35" />
+    <text id="10:12" name="Comece em Início com menu aberto • preto e branco conforme referência • dados fictícios • telas, estados e componentes editáveis" x="24" y="67" width="878" height="20" />
+  </frame>
+  <frame id="12:532" name="TR • Comportamentos e integração" x="4520" y="5510" width="1200" height="1459">
+    <text id="12:533" name="Candidato / comportamentos e integração" x="32" y="32" width="1136" height="35" />
+    <text id="12:534" name="Origem: PTTP-01-candidatoInteracoes, página referencias. Aparência monocromática, menu lateral, lista e painel conforme diagrama. Componentes e telas nesta mesma página; nenhuma página ou arquivo adicional." x="32" y="91" width="1136" height="40" />
+    <frame id="12:535" name="01 • Navegação e limites do protótipo" x="32" y="155" width="1136" height="138">
+      <text id="12:536" name="01 • Navegação e limites do protótipo" x="21" y="21" width="1096" height="20" />
+      <text id="12:537" name="Início → Vagas → Detalhes → Enviar → Sucesso → Minhas candidaturas. Perfil → Escolaridade → Experiências → Salvar. Use os botões para navegar; role as telas longas. Campos, rádios e seleção de filtros ilustram o estado: não aceitam digitação nem executam o back-end. Os atalhos de simulação demonstram erro e ausência de resultados." x="21" y="57" width="1096" height="60" />
+    </frame>
+    <frame id="12:538" name="02 • Busca e seleção de vagas" x="32" y="317" width="1136" height="138">
+      <text id="12:539" name="02 • Busca e seleção de vagas" x="21" y="21" width="1096" height="20" />
+      <text id="12:540" name="Front-end: preservar filtros e seleção ao voltar. Mostrar carregamento, lista vazia e erro recuperável. Distância depende de permissão/localização; permitir busca por bairro. Back-end: retornar somente vagas disponíveis com paginação, distância, remuneração, localização e requisitos. O protótipo usa 3 registros fictícios; os cards demonstram a seleção da primeira vaga." x="21" y="57" width="1096" height="60" />
+    </frame>
+    <frame id="12:541" name="03 • Envio de candidatura" x="32" y="479" width="1136" height="138">
+      <text id="12:542" name="03 • Envio de candidatura" x="21" y="21" width="1096" height="20" />
+      <text id="12:543" name="Mensagem opcional; notificação por vaga optativa, desmarcada inicialmente. Front-end bloqueia duplo clique durante envio e só mostra sucesso após confirmação. Back-end valida sessão, vaga aberta e currículo válido e garante unicidade candidato + vaga. Duplicidade retorna a inscrição existente e mostra Já é candidato. Falha mantém mensagem e permite nova tentativa." x="21" y="57" width="1096" height="60" />
+    </frame>
+    <frame id="12:544" name="04 • Currículo / validação" x="32" y="641" width="1136" height="158">
+      <text id="12:545" name="04 • Currículo / validação" x="21" y="21" width="1096" height="20" />
+      <text id="12:546" name="Escolaridade: título, nível, instituição, início, conclusão ou previsão. Experiência: cargo, empresa, modalidade e início; fim obrigatório quando não é emprego atual. Validar ordem das datas. Front-end mostra erro junto ao campo, preserva dados e leva foco ao primeiro inválido. Back-end repete validações e retorna erros por campo; sucesso apenas após persistir. Adicionar/remover itens e habilidades deve atualizar listas dinâmicas na implementação; os botões de adição são ilustrativos nesta versão." x="21" y="57" width="1096" height="80" />
+    </frame>
+    <frame id="12:547" name="05 • Minhas candidaturas" x="32" y="823" width="1136" height="118">
+      <text id="12:548" name="05 • Minhas candidaturas" x="21" y="21" width="1096" height="20" />
+      <text id="12:549" name="Listar apenas inscrições do candidato autenticado com data e situação retornadas pelo servidor. Expandir abre vaga; Situação abre acompanhamento; Entrar em contato abre mensagem. A lista exibida usa dados de exemplo e não muda em tempo real após envio ou cancelamento." x="21" y="57" width="1096" height="40" />
+    </frame>
+    <frame id="12:550" name="06 • Cancelamento e contato" x="32" y="965" width="1136" height="138">
+      <text id="12:551" name="06 • Cancelamento e contato" x="21" y="21" width="1096" height="20" />
+      <text id="12:552" name="Pedir confirmação antes de cancelar; Manter candidatura volta sem alteração. Back-end verifica titularidade e estado permitido, registra cancelamento e devolve nova situação. Front-end atualiza a lista somente após resposta. Dúvida exige mensagem não vazia e destinatário derivado da vaga, com confirmação e recuperação em falha." x="21" y="57" width="1096" height="60" />
+    </frame>
+    <frame id="12:553" name="07 • Contrato sugerido / confirmar com o time" x="32" y="1127" width="1136" height="138">
+      <text id="12:554" name="07 • Contrato sugerido / confirmar com o time" x="21" y="21" width="1096" height="20" />
+      <text id="12:555" name="Proposta, não API existente: GET /vagas?distancia&amp;tipo&amp;publicadaDesde; GET /vagas/{id}; GET e PUT /candidato/curriculo; GET e POST /candidaturas; PATCH /candidaturas/{id} para cancelar; POST /vagas/{id}/duvidas. Padronizar validação por campo, identificador de requisição e respostas de autenticação, duplicidade, vaga encerrada e falha temporária. Dados de autoria vêm da sessão, não do corpo da requisição." x="21" y="57" width="1096" height="60" />
+    </frame>
+    <frame id="12:556" name="08 • Decisões abertas" x="32" y="1289" width="1136" height="138">
+      <text id="12:557" name="08 • Decisões abertas" x="21" y="21" width="1096" height="20" />
+      <text id="12:558" name="Confirmar estados oficiais da candidatura, política de nova inscrição após cancelamento, canal de resposta às dúvidas, requisitos mínimos do currículo e regras de notificação. A referência não define essas regras; esta documentação distingue proposta de comportamento confirmado. Tipografia Inter, contornos finos e superfícies brancas aplicam o acabamento preservando a composição das referências." x="21" y="57" width="1096" height="60" />
+    </frame>
+  </frame>
+  <frame id="16:283" name="Representante — Confirmar alterações" x="11640" y="3590" width="1200" height="840">
+    <frame id="17:804" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:805" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:807" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:808" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:809" name="Conteúdo" x="1" y="93" width="1200" height="538">
+      <frame id="17:810" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:811" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:812" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:813" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:815" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:817" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:819" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:821" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:823" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:824" name="Área principal" x="252" y="24" width="924" height="490">
+        <text id="17:825" name="Confirme as alterações" x="0" y="0" width="924" height="35" />
+        <frame id="17:826" name="Resumo da vaga" x="0" y="53" width="924" height="313">
+          <text id="17:827" name="Auxiliar administrativo" x="21" y="21" width="884" height="35" />
+          <text id="17:828" name="Nº 1024 • CLT • período integral • Presencial" x="21" y="72" width="884" height="20" />
+          <text id="17:829" name="Data: 18/10/2026 • Salário: R$ 1.900 / mês" x="21" y="108" width="884" height="20" />
+          <text id="17:830" name="Benefícios: vale-transporte e vale-alimentação" x="21" y="144" width="884" height="20" />
+          <text id="17:831" name="Centro • São Paulo / SP Rua Exemplo, 120 — CEP 01000-000" x="21" y="180" width="884" height="40" />
+          <text id="17:832" name="Descrição e requisitos" x="21" y="236" width="884" height="20" />
+          <text id="17:833" name="Organize documentos, atenda clientes e apoie rotinas administrativas. Ensino médio completo e organização." x="21" y="272" width="884" height="20" />
+        </frame>
+        <frame id="17:834" name="Confirmação final" x="0" y="384" width="924" height="44">
+          <instance id="17:835" name="Confirmar e publicar" x="0" y="0" width="280" height="44" />
+          <instance id="17:837" name="Voltar para preenchimento" x="296" y="0" width="340" height="44" />
+          <instance id="17:839" name="Cancelar" x="652" y="0" width="220" height="44" />
+        </frame>
+        <instance id="17:841" name="Simular falha de publicação" x="0" y="446" width="340" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:284" name="Representante — Alterações publicadas" x="9000" y="4550" width="1200" height="840">
+    <frame id="17:887" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="17:888" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="17:890" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="17:891" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="17:892" name="Conteúdo" x="1" y="93" width="1200" height="496">
+      <frame id="17:893" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="17:894" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="17:895" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="17:896" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="17:898" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="17:900" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="17:902" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="17:904" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="17:906" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="17:907" name="Área principal" x="252" y="24" width="924" height="448">
+        <text id="17:908" name="✓ Alterações publicadas" x="0" y="0" width="924" height="35" />
+        <frame id="17:909" name="Informações e gerenciamento" x="0" y="53" width="924" height="333">
+          <frame id="17:910" name="Resumo da vaga" x="0" y="0" width="580" height="333">
+            <text id="17:911" name="Auxiliar administrativo" x="21" y="21" width="540" height="35" />
+            <text id="17:912" name="Nº 1024 • CLT • período integral • Presencial" x="21" y="72" width="540" height="20" />
+            <text id="17:913" name="Data: 18/10/2026 • Salário: R$ 1.900 / mês" x="21" y="108" width="540" height="20" />
+            <text id="17:914" name="Benefícios: vale-transporte e vale-alimentação" x="21" y="144" width="540" height="20" />
+            <text id="17:915" name="Centro • São Paulo / SP Rua Exemplo, 120 — CEP 01000-000" x="21" y="180" width="540" height="40" />
+            <text id="17:916" name="Descrição e requisitos" x="21" y="236" width="540" height="20" />
+            <text id="17:917" name="Organize documentos, atenda clientes e apoie rotinas administrativas. Ensino médio completo e organização." x="21" y="272" width="540" height="40" />
+          </frame>
+          <frame id="17:918" name="Ações da oportunidade" x="600" y="0" width="324" height="284">
+            <instance id="17:919" name="Acompanhar candidaturas" x="0" y="0" width="324" height="44" />
+            <instance id="17:921" name="Alterar vaga" x="0" y="60" width="324" height="44" />
+            <instance id="17:923" name="Informações de visualizações" x="0" y="120" width="324" height="44" />
+            <instance id="17:925" name="Dúvidas / comentários" x="0" y="180" width="324" height="44" />
+            <instance id="17:927" name="Encerrar vaga" x="0" y="240" width="324" height="44" />
+          </frame>
+        </frame>
+        <instance id="17:929" name="Gerenciamento de vagas" x="0" y="404" width="310" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:285" name="Representante — Confirmar encerramento" x="10320" y="4550" width="1200" height="840">
+    <frame id="18:561" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:562" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:564" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:565" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:566" name="Conteúdo" x="1" y="93" width="1200" height="592">
+      <frame id="18:567" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:568" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:569" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:570" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:572" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:574" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:576" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:578" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:580" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:581" name="Área principal" x="252" y="24" width="924" height="544">
+        <text id="18:582" name="Encerrar esta vaga?" x="0" y="0" width="924" height="35" />
+        <frame id="18:583" name="Resumo da vaga" x="0" y="53" width="924" height="313">
+          <text id="18:584" name="Auxiliar administrativo" x="21" y="21" width="884" height="35" />
+          <text id="18:585" name="Nº 1024 • CLT • período integral • Presencial" x="21" y="72" width="884" height="20" />
+          <text id="18:586" name="Data: 18/10/2026 • Salário: R$ 1.900 / mês" x="21" y="108" width="884" height="20" />
+          <text id="18:587" name="Benefícios: vale-transporte e vale-alimentação" x="21" y="144" width="884" height="20" />
+          <text id="18:588" name="Centro • São Paulo / SP Rua Exemplo, 120 — CEP 01000-000" x="21" y="180" width="884" height="40" />
+          <text id="18:589" name="Descrição e requisitos" x="21" y="236" width="884" height="20" />
+          <text id="18:590" name="Organize documentos, atenda clientes e apoie rotinas administrativas. Ensino médio completo e organização." x="21" y="272" width="884" height="20" />
+        </frame>
+        <frame id="18:591" name="A vaga deixará de aceitar novas inscrições" x="0" y="384" width="924" height="98">
+          <text id="18:592" name="A vaga deixará de aceitar novas inscrições" x="21" y="21" width="884" height="20" />
+          <text id="18:593" name="O histórico de candidaturas deve continuar disponível para acompanhamento." x="21" y="57" width="884" height="20" />
+        </frame>
+        <frame id="18:594" name="Confirmar encerramento" x="0" y="500" width="924" height="44">
+          <instance id="18:595" name="Manter vaga aberta" x="0" y="0" width="280" height="44" />
+          <instance id="18:597" name="Confirmar encerramento" x="296" y="0" width="310" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:286" name="Representante — Vaga encerrada" x="11640" y="4550" width="1200" height="840">
+    <frame id="18:599" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:600" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:602" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:603" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:604" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="18:605" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:606" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:607" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:608" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:610" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:612" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:614" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:616" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:618" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:619" name="Área principal" x="252" y="24" width="924" height="275">
+        <text id="18:620" name="✓ Vaga encerrada" x="0" y="0" width="924" height="35" />
+        <frame id="18:621" name="Auxiliar administrativo • Nº 1024" x="0" y="53" width="924" height="98">
+          <text id="18:622" name="Auxiliar administrativo • Nº 1024" x="21" y="21" width="884" height="20" />
+          <text id="18:623" name="Situação: Encerrada. Novas candidaturas não são permitidas." x="21" y="57" width="884" height="20" />
+        </frame>
+        <instance id="18:624" name="Consultar inscrições" x="0" y="169" width="280" height="44" />
+        <instance id="18:626" name="Gerenciamento de vagas" x="0" y="231" width="310" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:287" name="Representante — Currículo do candidato" x="9000" y="5510" width="1200" height="840">
+    <frame id="18:628" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:629" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:631" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:632" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:633" name="Conteúdo" x="1" y="93" width="1200" height="552">
+      <frame id="18:634" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:635" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:636" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:637" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:639" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:641" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:643" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:645" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:647" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:648" name="Área principal" x="252" y="24" width="924" height="504">
+        <text id="18:649" name="Currículo do candidato" x="0" y="0" width="924" height="35" />
+        <frame id="18:650" name="Informações do currículo" x="0" y="53" width="924" height="389">
+          <text id="18:651" name="Ana Souza" x="21" y="21" width="884" height="35" />
+          <text id="18:652" name="Candidatura Nº 2041 • Auxiliar administrativo" x="21" y="72" width="884" height="20" />
+          <text id="18:653" name="Escolaridade" x="21" y="108" width="884" height="20" />
+          <text id="18:654" name="Ensino médio completo • Escola Municipal Central 02/2018 a 12/2020" x="21" y="144" width="884" height="40" />
+          <text id="18:655" name="Habilidades" x="21" y="200" width="884" height="20" />
+          <text id="18:656" name="Organização • Atendimento • Informática" x="21" y="236" width="884" height="20" />
+          <text id="18:657" name="Experiências profissionais" x="21" y="272" width="884" height="20" />
+          <text id="18:658" name="Assistente de atendimento • Empresa Exemplo 03/2023 a 09/2026 • Presencial Atendimento ao público e organização de documentos." x="21" y="308" width="884" height="60" />
+        </frame>
+        <frame id="18:659" name="Decisão sobre candidatura" x="0" y="460" width="924" height="44">
+          <instance id="18:660" name="Voltar para inscrições" x="0" y="0" width="290" height="44" />
+          <instance id="18:662" name="Aprovar" x="306" y="0" width="200" height="44" />
+          <instance id="18:664" name="Reprovar" x="522" y="0" width="200" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:288" name="Representante — Confirmar aprovação" x="10320" y="5510" width="1200" height="840">
+    <frame id="18:666" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:667" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:669" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:670" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:671" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="18:672" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:673" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:674" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:675" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:677" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:679" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:681" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:683" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:685" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:686" name="Área principal" x="252" y="24" width="924" height="345">
+        <text id="18:687" name="Aprovar candidatura?" x="0" y="0" width="924" height="35" />
+        <frame id="18:688" name="Confirmação da decisão" x="0" y="53" width="924" height="230">
+          <instance id="18:689" name="Resumo / Candidatura" x="21" y="21" width="480" height="116" />
+          <text id="18:694" name="Confirme a aprovação de Ana Souza para esta vaga." x="21" y="153" width="884" height="20" />
+          <text id="18:695" name="A situação será atualizada para a empresa e para o candidato." x="21" y="189" width="884" height="20" />
+        </frame>
+        <frame id="18:696" name="Confirmar ou voltar" x="0" y="301" width="924" height="44">
+          <instance id="18:697" name="Voltar para inscrições" x="0" y="0" width="300" height="44" />
+          <instance id="18:699" name="Confirmar aprovação" x="316" y="0" width="310" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:289" name="Representante — Candidato aprovado" x="11640" y="5510" width="1200" height="840">
+    <frame id="18:736" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:737" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:739" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:740" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:741" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="18:742" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:743" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:744" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:745" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:747" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:749" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:751" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:753" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:755" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:756" name="Área principal" x="252" y="24" width="924" height="371">
+        <text id="18:757" name="✓ Candidato aprovado" x="0" y="0" width="924" height="35" />
+        <frame id="18:758" name="Situação atualizada" x="0" y="53" width="924" height="194">
+          <instance id="18:759" name="Resumo / Candidatura" x="21" y="21" width="480" height="116" />
+          <text id="18:764" name="A alteração desta candidatura foi confirmada." x="21" y="153" width="884" height="20" />
+        </frame>
+        <instance id="18:765" name="Entrar em contato" x="0" y="265" width="280" height="44" />
+        <instance id="18:767" name="Voltar para inscrições" x="0" y="327" width="310" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:290" name="Representante — Confirmar reprovação" x="9000" y="6470" width="1200" height="840">
+    <frame id="18:701" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:702" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:704" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:705" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:706" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="18:707" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:708" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:709" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:710" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:712" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:714" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:716" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:718" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:720" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:721" name="Área principal" x="252" y="24" width="924" height="345">
+        <text id="18:722" name="Reprovar candidatura?" x="0" y="0" width="924" height="35" />
+        <frame id="18:723" name="Confirmação da decisão" x="0" y="53" width="924" height="230">
+          <instance id="18:724" name="Resumo / Candidatura" x="21" y="21" width="480" height="116" />
+          <text id="18:729" name="Confirme a reprovação de Ana Souza nesta seleção." x="21" y="153" width="884" height="20" />
+          <text id="18:730" name="A situação será atualizada para a empresa e para o candidato." x="21" y="189" width="884" height="20" />
+        </frame>
+        <frame id="18:731" name="Confirmar ou voltar" x="0" y="301" width="924" height="44">
+          <instance id="18:732" name="Voltar para inscrições" x="0" y="0" width="300" height="44" />
+          <instance id="18:734" name="Confirmar reprovação" x="316" y="0" width="310" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:291" name="Representante — Candidato reprovado" x="10320" y="6470" width="1200" height="840">
+    <frame id="18:769" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:770" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:772" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:773" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:774" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="18:775" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:776" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:777" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:778" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:780" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:782" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:784" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:786" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:788" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:789" name="Área principal" x="252" y="24" width="924" height="371">
+        <text id="18:790" name="Candidato reprovado" x="0" y="0" width="924" height="35" />
+        <frame id="18:791" name="Situação atualizada" x="0" y="53" width="924" height="194">
+          <instance id="18:792" name="Resumo / Candidatura" x="21" y="21" width="480" height="116" />
+          <text id="18:797" name="A alteração desta candidatura foi confirmada." x="21" y="153" width="884" height="20" />
+        </frame>
+        <instance id="18:798" name="Entrar em contato" x="0" y="265" width="280" height="44" />
+        <instance id="18:800" name="Voltar para inscrições" x="0" y="327" width="310" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:292" name="Representante — Entrar em contato" x="11640" y="6470" width="1200" height="840">
+    <frame id="18:802" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:803" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:805" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:806" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:807" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="18:808" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:809" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:810" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:811" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:813" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:815" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:817" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:819" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:821" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:822" name="Área principal" x="252" y="24" width="924" height="312">
+        <text id="18:823" name="Entrar em contato" x="0" y="0" width="924" height="35" />
+        <frame id="18:824" name="Mensagem ao candidato" x="0" y="53" width="924" height="197">
+          <text id="18:825" name="Para: Ana Souza" x="21" y="21" width="884" height="35" />
+          <text id="18:826" name="Vaga: Auxiliar administrativo • inscrição Nº 2041" x="21" y="72" width="884" height="20" />
+          <instance id="18:827" name="Campo / Texto" x="21" y="108" width="884" height="68" />
+        </frame>
+        <frame id="18:831" name="Enviar ou cancelar" x="0" y="268" width="924" height="44">
+          <instance id="18:832" name="Cancelar" x="0" y="0" width="220" height="44" />
+          <instance id="18:834" name="Enviar mensagem" x="236" y="0" width="280" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:293" name="Representante — Mensagem enviada" x="9000" y="7430" width="1200" height="840">
+    <frame id="18:836" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:837" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:839" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:840" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:841" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="18:842" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:843" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:844" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:845" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:847" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:849" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:851" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:853" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:855" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:856" name="Área principal" x="252" y="24" width="924" height="213">
+        <text id="18:857" name="✓ Mensagem enviada" x="0" y="0" width="924" height="35" />
+        <frame id="18:858" name="Contato registrado" x="0" y="53" width="924" height="98">
+          <text id="18:859" name="Contato registrado" x="21" y="21" width="884" height="20" />
+          <text id="18:860" name="Sua mensagem foi encaminhada para Ana Souza. O envio real depende do canal definido pelo sistema." x="21" y="57" width="884" height="20" />
+        </frame>
+        <instance id="18:861" name="Voltar para inscrições" x="0" y="169" width="310" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:294" name="Representante — Informações de visualizações" x="10320" y="7430" width="1200" height="840">
+    <frame id="18:863" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:864" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:866" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:867" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:868" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="18:869" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:870" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:871" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:872" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:874" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:876" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:878" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:880" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:882" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:883" name="Área principal" x="252" y="24" width="924" height="301">
+        <text id="18:884" name="Informações de visualizações" x="0" y="0" width="924" height="35" />
+        <text id="18:885" name="Auxiliar administrativo • Nº 1024" x="0" y="53" width="924" height="20" />
+        <frame id="18:886" name="Indicadores da vaga" x="0" y="91" width="924" height="113">
+          <frame id="18:887" name="Visualizações" x="0" y="0" width="294" height="113">
+            <text id="18:888" name="128" x="21" y="21" width="254" height="35" />
+            <text id="18:889" name="Visualizações" x="21" y="72" width="254" height="20" />
+          </frame>
+          <frame id="18:890" name="Inscrições" x="314" y="0" width="294" height="113">
+            <text id="18:891" name="12" x="21" y="21" width="254" height="35" />
+            <text id="18:892" name="Inscrições" x="21" y="72" width="254" height="20" />
+          </frame>
+          <frame id="18:893" name="Dúvida pendente" x="628" y="0" width="294" height="113">
+            <text id="18:894" name="1" x="21" y="21" width="254" height="35" />
+            <text id="18:895" name="Dúvida pendente" x="21" y="72" width="254" height="20" />
+          </frame>
+        </frame>
+        <text id="18:896" name="Indicadores demonstrativos desde a publicação da vaga." x="0" y="222" width="924" height="17" />
+        <instance id="18:897" name="Voltar para a vaga" x="0" y="257" width="280" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:295" name="Representante — Dúvidas e comentários" x="11640" y="7430" width="1200" height="840">
+    <frame id="18:899" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:900" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:902" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:903" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:904" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="18:905" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:906" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:907" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:908" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:910" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:912" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:914" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:916" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:918" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:919" name="Área principal" x="252" y="24" width="924" height="335">
+        <text id="18:920" name="Dúvidas e comentários" x="0" y="0" width="924" height="35" />
+        <text id="18:921" name="Auxiliar administrativo • Nº 1024" x="0" y="53" width="924" height="20" />
+        <frame id="18:922" name="Dúvida recebida" x="0" y="91" width="924" height="182">
+          <text id="18:923" name="Ana Souza • 18/10/2026" x="21" y="21" width="884" height="20" />
+          <text id="18:924" name="Qual é o horário de trabalho para esta vaga?" x="21" y="57" width="884" height="20" />
+          <instance id="18:925" name="Campo / Texto" x="21" y="93" width="884" height="68" />
+        </frame>
+        <frame id="18:929" name="Ações" x="0" y="291" width="924" height="44">
+          <instance id="18:930" name="Voltar para a vaga" x="0" y="0" width="280" height="44" />
+          <instance id="18:932" name="Enviar resposta" x="296" y="0" width="280" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:296" name="Representante — Resposta enviada" x="9000" y="8390" width="1200" height="840">
+    <frame id="18:934" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:935" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:937" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:938" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:939" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="18:940" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:941" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:942" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:943" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:945" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:947" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:949" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:951" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:953" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:954" name="Área principal" x="252" y="24" width="924" height="213">
+        <text id="18:955" name="✓ Resposta enviada" x="0" y="0" width="924" height="35" />
+        <frame id="18:956" name="Dúvida respondida" x="0" y="53" width="924" height="98">
+          <text id="18:957" name="Dúvida respondida" x="21" y="21" width="884" height="20" />
+          <text id="18:958" name="Sua resposta foi encaminhada para Ana Souza e vinculada à oportunidade." x="21" y="57" width="884" height="20" />
+        </frame>
+        <instance id="18:959" name="Voltar para dúvidas" x="0" y="169" width="280" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:297" name="Representante — Falha ao publicar" x="10320" y="8390" width="1200" height="840">
+    <frame id="18:961" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:962" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:964" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:965" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:966" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="18:967" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:968" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:969" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:970" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:972" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:974" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:976" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:978" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:980" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:981" name="Área principal" x="252" y="24" width="924" height="213">
+        <text id="18:982" name="Não foi possível publicar" x="0" y="0" width="924" height="35" />
+        <frame id="18:983" name="Suas informações foram preservadas" x="0" y="53" width="924" height="98">
+          <text id="18:984" name="Suas informações foram preservadas" x="21" y="21" width="884" height="20" />
+          <text id="18:985" name="Não recebemos confirmação da publicação. Confira os dados e tente novamente. O sistema deve evitar publicações duplicadas." x="21" y="57" width="884" height="20" />
+        </frame>
+        <frame id="18:986" name="Tentar novamente" x="0" y="169" width="924" height="44">
+          <instance id="18:987" name="Revisar dados" x="0" y="0" width="260" height="44" />
+          <instance id="18:989" name="Tentar novamente" x="276" y="0" width="280" height="44" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:298" name="Representante — Perfil da empresa" x="11640" y="8390" width="1200" height="840">
+    <frame id="18:991" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:992" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:994" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:995" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:996" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="18:997" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:998" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:999" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:1000" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:1002" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:1004" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:1006" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:1008" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:1010" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:1011" name="Área principal" x="252" y="24" width="924" height="301">
+        <text id="18:1012" name="Perfil da empresa" x="0" y="0" width="924" height="35" />
+        <frame id="18:1013" name="Informações da organização" x="0" y="53" width="924" height="186">
+          <text id="18:1014" name="Empresa Horizonte" x="21" y="21" width="884" height="35" />
+          <text id="18:1015" name="Representante: Carlos Almeida Atuação: Serviços administrativos Localização: Centro • São Paulo / SP" x="21" y="72" width="884" height="60" />
+          <text id="18:1016" name="As informações cadastrais apresentadas são fictícias." x="21" y="148" width="884" height="17" />
+        </frame>
+        <instance id="18:1017" name="Gerenciamento de vagas" x="0" y="257" width="310" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:299" name="Representante — Configurações" x="9000" y="9350" width="1200" height="840">
+    <frame id="18:1019" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:1020" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:1022" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:1023" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:1024" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="18:1025" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:1026" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:1027" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:1028" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:1030" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:1032" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:1034" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:1036" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:1038" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:1039" name="Área principal" x="252" y="24" width="924" height="288">
+        <text id="18:1040" name="Configurações" x="0" y="0" width="924" height="35" />
+        <frame id="18:1041" name="Preferências de comunicação" x="0" y="53" width="924" height="138">
+          <text id="18:1042" name="Preferências de comunicação" x="21" y="21" width="884" height="20" />
+          <text id="18:1043" name="Novas inscrições: ativadas Dúvidas recebidas: ativadas Resumo de atividade: semanal" x="21" y="57" width="884" height="60" />
+        </frame>
+        <text id="18:1044" name="Preferências ilustrativas. Alteração e persistência serão definidas na implementação." x="0" y="209" width="924" height="17" />
+        <instance id="18:1045" name="Gerenciamento de vagas" x="0" y="244" width="310" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:300" name="Representante — Suporte e dúvidas" x="10320" y="9350" width="1200" height="840">
+    <frame id="18:1047" name="Cabeçalho" x="1" y="1" width="1200" height="92">
+      <instance id="18:1048" name="☰  Menu" x="24" y="24" width="130" height="44" />
+      <text id="18:1050" name="tramporapido" x="182" y="28.5" width="540" height="35" />
+      <text id="18:1051" name="ÁREA DO REPRESENTANTE" x="750" y="37.5" width="156" height="17" />
+    </frame>
+    <frame id="18:1052" name="Conteúdo" x="1" y="93" width="1200" height="473">
+      <frame id="18:1053" name="Navegação lateral" x="24" y="24" width="204" height="425">
+        <text id="18:1054" name="Empresa Horizonte" x="16" y="16" width="172" height="20" />
+        <text id="18:1055" name="Olá, Carlos" x="16" y="48" width="172" height="35" />
+        <instance id="18:1056" name="Registrar vaga" x="16" y="95" width="172" height="44" />
+        <instance id="18:1058" name="Gerenciar vagas" x="16" y="151" width="172" height="44" />
+        <instance id="18:1060" name="Perfil" x="16" y="207" width="172" height="44" />
+        <instance id="18:1062" name="Configurações" x="16" y="263" width="172" height="44" />
+        <instance id="18:1064" name="Suporte e dúvidas" x="16" y="319" width="172" height="44" />
+        <text id="18:1066" name="Gerencie oportunidades e acompanhe pessoas." x="16" y="375" width="172" height="34" />
+      </frame>
+      <frame id="18:1067" name="Área principal" x="252" y="24" width="924" height="391">
+        <text id="18:1068" name="Suporte e dúvidas" x="0" y="0" width="924" height="35" />
+        <frame id="18:1069" name="Como publicar uma vaga?" x="0" y="53" width="924" height="98">
+          <text id="18:1070" name="Como publicar uma vaga?" x="21" y="21" width="884" height="20" />
+          <text id="18:1071" name="Selecione Registrar vaga, preencha os campos obrigatórios, revise as informações e confirme a publicação." x="21" y="57" width="884" height="20" />
+        </frame>
+        <frame id="18:1072" name="Como acompanhar candidatos?" x="0" y="169" width="924" height="98">
+          <text id="18:1073" name="Como acompanhar candidatos?" x="21" y="21" width="884" height="20" />
+          <text id="18:1074" name="Em Gerenciamento de vagas, escolha Inscrições e dúvidas. Abra o currículo antes de aprovar ou reprovar." x="21" y="57" width="884" height="20" />
+        </frame>
+        <instance id="18:1075" name="Registrar vaga" x="0" y="285" width="280" height="44" />
+        <instance id="18:1077" name="Gerenciamento de vagas" x="0" y="347" width="310" height="44" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="16:301" name="TR • Representante / Guia do protótipo" x="9000" y="-480" width="3840" height="150">
+    <text id="16:302" name="REPRESENTANTE / PTTP-02" x="24" y="20" width="329" height="35" />
+    <text id="16:303" name="Comece em Início • padrão monocromático das referências • dados fictícios • componentes compartilhados com o Candidato" x="24" y="67" width="834" height="20" />
+  </frame>
+  <frame id="18:1200" name="TR • Representante / Comportamentos e integração" x="13100" y="-250" width="1200" height="1703">
+    <text id="18:1201" name="Representante / comportamentos e integração" x="32" y="32" width="1136" height="35" />
+    <text id="18:1202" name="Origem: PTTP-02-representanteInteracoes, página referencias. Mesmo acabamento monocromático e mesma base do Candidato. Nenhum arquivo ou página adicional." x="32" y="91" width="1136" height="20" />
+    <frame id="18:1203" name="01 • Percursos e limites do protótipo" x="32" y="135" width="1136" height="138">
+      <text id="18:1204" name="01 • Percursos e limites do protótipo" x="21" y="21" width="1096" height="20" />
+      <text id="18:1205" name="Início → Registrar vaga → Preenchimento → Revisão → Confirmar → Publicada. Gerenciamento → Alterar ou Excluir. Inscrições → Currículo → Aprovar/Reprovar. Os botões navegam entre estados demonstrativos; campos e preferências não aceitam entrada real nem persistem dados. As listas são fotografias de exemplo e voltam ao estado inicial quando reabertas. Role os formulários longos." x="21" y="57" width="1096" height="60" />
+    </frame>
+    <frame id="18:1206" name="02 • Cadastro e validação" x="32" y="297" width="1136" height="138">
+      <text id="18:1207" name="02 • Cadastro e validação" x="21" y="21" width="1096" height="20" />
+      <text id="18:1208" name="Campos obrigatórios conforme referência: vaga, período, salário, benefícios e descrição/requisitos. Local, data e modalidade são exibidos no formulário. Definir as regras exatas com o time, inclusive benefícios inexistentes e endereço remoto. Front-end valida, identifica campos inválidos, preserva preenchimento e foca o primeiro erro. Back-end repete validações e retorna erros por campo. Sucesso apenas após persistência." x="21" y="57" width="1096" height="60" />
+    </frame>
+    <frame id="18:1209" name="03 • Revisão e publicação" x="32" y="459" width="1136" height="138">
+      <text id="18:1210" name="03 • Revisão e publicação" x="21" y="21" width="1096" height="20" />
+      <text id="18:1211" name="Publicar abre Confirme as informações. Voltar mantém dados; Cancelar abandona o processo conforme confirmação de alterações pendentes na implementação. Confirmar bloqueia reenvio enquanto aguarda o servidor. Back-end verifica permissão do representante na empresa, evita duplicidade e devolve ID e situação publicada. Falha mantém os dados e oferece nova tentativa." x="21" y="57" width="1096" height="60" />
+    </frame>
+    <frame id="18:1212" name="04 • Alterações em vaga existente" x="32" y="621" width="1136" height="118">
+      <text id="18:1213" name="04 • Alterações em vaga existente" x="21" y="21" width="1096" height="20" />
+      <text id="18:1214" name="Carregar dados atuais antes de editar. Revisar alterações antes de confirmar. Back-end valida titularidade e versão do registro para impedir sobrescrita concorrente; devolver nova versão. Definir com o time quais campos podem mudar após receber inscrições e se candidatos precisam ser notificados." x="21" y="57" width="1096" height="40" />
+    </frame>
+    <frame id="18:1215" name="05 • Excluir e encerrar são ações distintas" x="32" y="763" width="1136" height="138">
+      <text id="18:1216" name="05 • Excluir e encerrar são ações distintas" x="21" y="21" width="1096" height="20" />
+      <text id="18:1217" name="Excluir pede confirmação com identificação da vaga; o protótipo não define exclusão física do histórico. Encerrar interrompe novas inscrições e mantém o acompanhamento existente. Back-end autoriza pela empresa e valida estado da vaga; front-end só confirma após resposta. Definir retenção, impacto em inscrições e possibilidade de reabertura com o time." x="21" y="57" width="1096" height="60" />
+    </frame>
+    <frame id="18:1218" name="06 • Inscrições e decisão" x="32" y="925" width="1136" height="138">
+      <text id="18:1219" name="06 • Inscrições e decisão" x="21" y="21" width="1096" height="20" />
+      <text id="18:1220" name="Consultar inscrições apenas de vagas autorizadas. Expandir mostra o currículo; contato abre mensagem. Aprovação e reprovação pedem confirmação, enviam a decisão ao servidor e exibem sucesso depois da resposta. Back-end valida transição e retorna situação atualizada, refletida também na visão do candidato. Os nomes e estados oficiais devem ser confirmados com o time. Dados pessoais não devem ser expostos a representantes sem autorização." x="21" y="57" width="1096" height="60" />
+    </frame>
+    <frame id="18:1221" name="07 • Dúvidas, contato e indicadores" x="32" y="1087" width="1136" height="118">
+      <text id="18:1222" name="07 • Dúvidas, contato e indicadores" x="21" y="21" width="1096" height="20" />
+      <text id="18:1223" name="Mensagem e resposta exigem conteúdo não vazio. Destinatário é derivado da inscrição/vaga no servidor. Registrar autoria e data e definir o canal de entrega. Indicadores devem explicitar período e critério de contagem. Números deste protótipo são fictícios; aprovação não significa contratação automática." x="21" y="57" width="1096" height="40" />
+    </frame>
+    <frame id="18:1224" name="08 • Contrato sugerido / confirmar com o time" x="32" y="1229" width="1136" height="138">
+      <text id="18:1225" name="08 • Contrato sugerido / confirmar com o time" x="21" y="21" width="1096" height="20" />
+      <text id="18:1226" name="Proposta, não API existente: GET/POST /empresa/vagas; GET/PATCH/DELETE /empresa/vagas/{id}; POST /empresa/vagas/{id}/encerramento; GET /empresa/vagas/{id}/candidaturas; PATCH /empresa/candidaturas/{id}/situacao; GET /empresa/candidaturas/{id}/curriculo; POST /empresa/candidaturas/{id}/mensagens; GET /empresa/vagas/{id}/metricas; GET /empresa/vagas/{id}/duvidas e POST /empresa/duvidas/{id}/respostas. Autorizações sempre pela sessão e vínculo com a empresa." x="21" y="57" width="1096" height="60" />
+    </frame>
+    <frame id="18:1227" name="09 • Estados técnicos a implementar" x="32" y="1391" width="1136" height="138">
+      <text id="18:1228" name="09 • Estados técnicos a implementar" x="21" y="21" width="1096" height="20" />
+      <text id="18:1229" name="Carregamento, lista vazia, erros por campo, acesso negado, recurso indisponível, conflito de edição, erro temporário e sucesso. Padronizar mensagens e retorno por campo. Repetições de publicação, decisão e envio de mensagem devem ser tratadas com idempotência ou proteção equivalente. O protótipo cobre caminhos principais e um exemplo de falha de publicação." x="21" y="57" width="1096" height="60" />
+    </frame>
+    <frame id="18:1230" name="10 • Áreas secundárias e decisões abertas" x="32" y="1553" width="1136" height="118">
+      <text id="18:1231" name="10 • Áreas secundárias e decisões abertas" x="21" y="21" width="1096" height="20" />
+      <text id="18:1232" name="Perfil, Configurações e Suporte são prévias simples para manter o menu da referência. Edição de perfil e preferências fica fora deste primeiro recorte. Confirmar política de exclusão e encerramento, estados oficiais, notificações, visibilidade de dados pessoais e critérios das métricas antes da implementação." x="21" y="57" width="1096" height="40" />
+    </frame>
+  </frame>
+</canvas>

@@ -1,0 +1,51 @@
+- 4:17802: Candidato — Início com menu aberto
+- 4:17824: Candidato — Minhas candidaturas
+- 4:17884: Candidato — Vagas
+- 4:17923: Candidato — Detalhes da vaga
+- 4:17968: Candidato — Escolaridade e habilidades
+- 4:18016: Candidato — Currículo com campos inválidos
+- 4:18065: Candidato — Enviar candidatura
+- 4:18110: Candidato — Candidatura enviada com sucesso
+- 4:18149: Candidato — Experiências profissionais
+- 4:18197: Candidato — Currículo salvo com sucesso
+- 4:18242: Candidato — Já é candidato
+- 4:18288: Representante — Início
+- 4:18302: Representante — Menu aberto
+- 4:18328: Representante — Registrar vaga
+- 4:18362: Representante — Publicação com campos inválidos
+- 4:18383: Representante — Gerenciamento de vagas
+- 4:18428: Representante — Alterar vaga
+- 4:18468: Representante — Registrar vaga preenchida
+- 4:18508: Representante — Publicar vaga
+- 4:18532: Representante — Confirmar exclusão
+- 4:18550: Representante — Publicar alterações
+- 4:18574: Representante — Confirme as informações
+- 4:18595: Representante — Vaga publicada
+- 4:18621: Representante — Vaga excluída
+- 4:18637: Representante — Gerenciamento de inscrições
+- 10:2: Candidato — Filtrar vagas
+- 10:3: Candidato — Enviar dúvida
+- 10:4: Candidato — Dúvida enviada
+- 10:5: Candidato — Cancelar candidatura
+- 10:6: Candidato — Candidatura cancelada
+- 10:7: Candidato — Situação da candidatura
+- 10:8: Candidato — Nenhuma vaga encontrada
+- 10:9: Candidato — Falha ao enviar
+- 16:283: Representante — Confirmar alterações
+- 16:284: Representante — Alterações publicadas
+- 16:285: Representante — Confirmar encerramento
+- 16:286: Representante — Vaga encerrada
+- 16:287: Representante — Currículo do candidato
+- 16:288: Representante — Confirmar aprovação
+- 16:289: Representante — Candidato aprovado
+- 16:290: Representante — Confirmar reprovação
+- 16:291: Representante — Candidato reprovado
+- 16:292: Representante — Entrar em contato
+- 16:293: Representante — Mensagem enviada
+- 16:294: Representante — Informações de visualizações
+- 16:295: Representante — Dúvidas e comentários
+- 16:296: Representante — Resposta enviada
+- 16:297: Representante — Falha ao publicar
+- 16:298: Representante — Perfil da empresa
+- 16:299: Representante — Configurações
+- 16:300: Representante — Suporte e dúvidas
