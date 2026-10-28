@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import screens from './design/screens.json';
 import useAppModel from './useAppModel.js';
 
@@ -33,8 +33,23 @@ function geometry(n) {
   };
 }
 
+// Telas (em ordem de preferência) de onde copiamos a barra lateral caso a tela atual não tenha uma
+const SIDEBAR_SOURCES_REP = ['4:18383', '4:18242', '4:18328', '4:18428', '4:18302', '4:18288', '16:291'];
+const SIDEBAR_SOURCES_CANDIDATE = ['4:17884', '4:17824', '4:17802'];
+
+function findSidebar(screenList) {
+  for (const id of screenList) {
+    const s = screens.find(x => x.id === id);
+    const found = s && flatten(s).find(x => x.name === 'Navegação lateral');
+    if (found) return found;
+  }
+  return null;
+}
+
 export default function App() {
   const m = useAppModel();
+  // Menu lateral: começa aberto, como no layout original, e o botão "☰ Menu" abre/fecha
+  const [menuOpen, setMenuOpen] = useState(true);
 
   useEffect(() => {
     if (!m.dialog) return;
@@ -160,9 +175,11 @@ export default function App() {
     return <div className="empty-state" role="status">{children}</div>;
   }
 
-  function StandardHeader() {
+  // Chamado como função (não como componente) para não remontar o botão a cada render
+  function standardHeader(key) {
     return (
       <header
+        key={key}
         className="design-node layout-row"
         style={{
           width: 1200,
@@ -173,13 +190,17 @@ export default function App() {
           justifyContent: 'space-between',
           padding: '0 40px',
           boxSizing: 'border-box',
-          borderBottom: '1px solid #E6D7C3'
+          borderBottom: '1px solid #E6D7C3',
+          position: 'relative',
+          zIndex: 60
         }}
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: 24 }}>
           <button
             type="button"
             className="design-node design-button"
+            aria-expanded={menuOpen}
+            aria-controls="menu-lateral"
             style={{
               padding: '8px 18px',
               border: '1px solid #8C5500',
@@ -193,10 +214,7 @@ export default function App() {
               alignItems: 'center',
               gap: 8
             }}
-            onClick={() => {
-              // Alterna a classe no body de forma instantânea
-              document.body.classList.toggle('menu-closed');
-            }}
+            onClick={() => setMenuOpen(open => !open)}
           >
             ☰ Menu
           </button>
@@ -250,10 +268,13 @@ export default function App() {
     // Substitui o cabeçalho original pelo cabeçalho padronizado
     if (!reference && (n.name === 'Cabeçalho' || ctx.header)) {
       if (n.name === 'Cabeçalho') {
-        return <StandardHeader key={key} />;
+        return standardHeader(key);
       }
       return null;
     }
+
+    // Menu fechado: a barra lateral some e o conteúdo ocupa o espaço dela
+    if (!reference && n.name === 'Navegação lateral' && !menuOpen) return null;
 
     ctx = { ...ctx, sidebar: ctx.sidebar || n.name === 'Navegação lateral' };
     const style = geometry(n),
@@ -270,21 +291,40 @@ export default function App() {
       style.width = 1200;
       style.padding = 0;
 
-      // Se for a tela inicial de boas-vindas do Carlos ("16:291") que veio sem barra lateral no JSON
-      const hasSidebar = n.children.some(c => c.name === 'Navegação lateral');
-      let childrenToRender = [...n.children];
-
-      if (!reference && !hasSidebar && m.isRep) {
-        const sourceScreen = screens.find(s => s.id === '4:18288');
-        const fallbackSidebar = sourceScreen?.children?.find(c => c.name === 'Navegação lateral');
+      // Telas da home que vieram sem barra lateral no JSON recebem a barra do perfil atual
+      const hasSidebar = flatten(n).some(c => c.name === 'Navegação lateral');
+      if (!reference && !hasSidebar) {
+        // Home sem barra lateral no JSON: usa a barra do perfil atual
+        const isRepScreen = m.isRep || ['4:18288', '16:291'].includes(m.screenId);
+        const fallbackSidebar =
+          findSidebar(isRepScreen ? SIDEBAR_SOURCES_REP : SIDEBAR_SOURCES_CANDIDATE) ||
+          findSidebar([...SIDEBAR_SOURCES_REP, ...SIDEBAR_SOURCES_CANDIDATE]);
         if (fallbackSidebar) {
-          childrenToRender.splice(1, 0, fallbackSidebar);
+          // Cabeçalho em cima; barra lateral e conteúdo lado a lado embaixo
+          const headers = n.children.filter(c => c.name === 'Cabeçalho');
+          const rest = n.children.filter(c => c.name !== 'Cabeçalho');
+          style.flexDirection = 'column';
+          style.alignItems = 'stretch';
+          return (
+            <div key={key} {...attrs} className="screen design-node" style={style}>
+              {headers.map(c => render(c, ctx))}
+              <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'stretch', flex: 1 }}>
+                <div style={{ display: 'flex', flexShrink: 0, padding: !menuOpen ? 0 : '24px 0 0 24px', boxSizing: 'content-box' }}>
+                  {render(fallbackSidebar, ctx, 'fallback-sidebar')}
+                </div>
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  {rest.map(c => render(c, ctx))}
+                </div>
+              </div>
+            </div>
+          );
         }
+        console.warn('Nenhuma barra lateral encontrada para a tela', m.screenId, m.screen?.name);
       }
 
       return (
         <div key={key} {...attrs} className="screen design-node" style={style}>
-          {childrenToRender.map(c => render(c, ctx))}
+          {n.children.map(c => render(c, ctx))}
         </div>
       );
     }
@@ -601,6 +641,7 @@ export default function App() {
       <Tag
         key={key}
         {...attrs}
+        id={Tag === 'nav' ? 'menu-lateral' : undefined}
         aria-label={Tag === 'nav' ? 'Menu principal' : undefined}
         className={`design-node ${n.layout === 'HORIZONTAL' ? 'layout-row' : ''}`}
         style={style}
@@ -666,6 +707,7 @@ export default function App() {
         Pular para o conteúdo
       </a>
       {render(root)}
+
       {!reference && (
         <footer className="utility">
           <span>Acessar como:</span>
